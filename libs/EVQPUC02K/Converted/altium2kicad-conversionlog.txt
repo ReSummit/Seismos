@@ -1,0 +1,14 @@
+Archive:  db/29126.zip
+  inflating: db/29126/SW-SMD_EVQPUD02K_2023-10-04.pcbdoc  
+  inflating: db/29126/EVQPUC02K_2023-10-04.schdoc  
+Loading EVQPUC02K_2023-10-04.schdoc
+Loading SW-SMD_EVQPUD02K_2023-10-04.pcbdoc
+Skipping ASCII .PcbDoc
+Done.
+No unpacked .PcbDoc documents found. Trying to unpack it:
+Loading EVQPUC02K_2023-10-04.schdoc
+Loading SW-SMD_EVQPUD02K_2023-10-04.pcbdoc
+Skipping ASCII .PcbDoc
+Done.
+There were no unpacked PcbDoc files found.
+Handling EVQPUC02K_2023-10-04.schdoc

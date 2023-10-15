@@ -1,0 +1,102 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "PCM12SMTR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "SW" (id 0) (at -5.08439 5.33861 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "PCM12SMTR" (id 1) (at -5.18135 -9.66186 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SW_PCM12SMTR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendation" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "C&K" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "PCM12SMTR_0_0"
+      (circle (center -1.524 2.54) (radius 0.508)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -1.524 -2.54) (radius 0.508)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 1.524 0.0) (radius 0.508)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 2.54) (xy -1.524 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -2.032 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.032 0.0) (xy 5.08 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 1.016 0.0) (xy -1.27 -2.032)) (stroke (width 0.1524))
+      )
+      (rectangle (start -5.08 -7.62) (end 5.08 5.08)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin passive line (at -10.16 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 5.08)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "S4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

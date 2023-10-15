@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# EVQPUC02K
+#
+DEF EVQPUC02K SW 0 40 Y N 1 F N
+F0 "SW" 0 305 50 H V C CNN
+F1 "EVQPUC02K" 0 505 50 H V C CNN
+F2 "kicad_lceda:SW-SMD_EVQPUD02K" 0 105 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_80311.html" 0 -95 50 H I C CNN
+F4 "C79174" 0 -295 50 H I C CNN "SuppliersPartNumber"
+F5 "std:89571b53ad64408584c96bcda364818c" 0 -295 50 H I C CNN "uuid"
+DRAW
+C 0 -30 10 1 1 6 N
+C 0 30 10 1 1 6 N
+X 1 1 200 100 100 L 50 50 1 1 I 
+X 3 3 -200 100 100 R 50 50 1 1 I 
+X 2 2 200 -100 100 L 50 50 1 1 I 
+X 4 4 -200 -100 100 R 50 50 1 1 I 
+P 2 1 1 6 -50 -40 -10 30 N
+P 2 1 1 6 0 -60 0 -30 N
+P 2 1 1 6 0 100 0 30 N
+P 2 1 1 6 0 -100 0 -60 N
+P 2 1 1 6 -100 100 100 100 N
+P 2 1 1 6 -100 -100 100 -100 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library

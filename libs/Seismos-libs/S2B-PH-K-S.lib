@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# S2B-PH-K-S-GW
+#
+DEF S2B-PH-K-S-GW U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "S2B-PH-K-S-GW" 0 450 50 H V C CNN
+F2 "kicad_lceda:CONN-TH_S2B-PH-K-S-GW" 0 50 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_169280.html" 0 -150 50 H I C CNN
+F4 "C157932" 0 -350 50 H I C CNN "SuppliersPartNumber"
+F5 "std:142e468e0eff4c74b82a90663b738815" 0 -350 50 H I C CNN "uuid"
+DRAW
+S -100 150 200 -150 1 1 6 N
+C -75 125 15 1 1 6 F
+X 1 1 -200 50 100 R 50 50 1 1 I 
+X 2 2 -200 -50 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

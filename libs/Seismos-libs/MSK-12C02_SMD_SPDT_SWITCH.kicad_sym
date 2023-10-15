@@ -1,0 +1,52 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MSK-12C02_SMD_SPDT_SWITCH" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -5.08 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MSK-12C02_SMD_SPDT_SWITCH" (id 1) (at -5.08 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MSK-12C02_SMD_SPDT_SWITCH:MSK-12C02" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MSK-12C02_SMD_SPDT_SWITCH_0_0"
+      (circle (center 0.0 3.556) (radius 0.915809)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 0.0 -3.556) (radius 0.915809)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center -5.08 0.0) (radius 0.915809)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -5.08 0.0) (xy -1.524 -2.54)) (stroke (width 0.254))
+      )
+      (pin bidirectional line (at -7.62 0.0 0) (length 2.54)
+        (name "COM"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "COM"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 3.556 180.0) (length 2.54)
+        (name "L2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 2.54 -3.556 180.0) (length 2.54)
+        (name "L1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

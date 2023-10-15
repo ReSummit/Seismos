@@ -1,0 +1,6 @@
+[submodule "pcbs/4_Key/libs/keyboard_reversible.pretty"]
+	path = pcbs/4_Key/libs/keyboard_reversible.pretty
+	url = https://github.com/50an6xy06r6n/keyboard_reversible.pretty
+[submodule "libs/keyboard_reversible.pretty"]
+	path = libs/keyboard_reversible.pretty
+	url = https://github.com/50an6xy06r6n/keyboard_reversible.pretty
