@@ -447,7 +447,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Seismos_4PCB.step",
+      "step": "../../../3dmodels/pcb/Seismos_4PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
