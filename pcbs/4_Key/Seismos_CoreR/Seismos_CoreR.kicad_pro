@@ -481,7 +481,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "KeysOnRails.step",
+      "step": "Seismos_CoreR.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
