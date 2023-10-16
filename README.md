@@ -2,7 +2,7 @@
 
 An evolution of the Zebra keyboard, but can be used for everyday typing. Switch between ortholinear for macro keypads and staggered for typing on the go.
 
-Since this design utilizes daughter boards, you can even choose to move the columns around with a different rail system from the example one provided (case design coming soon).
+Since this design utilizes daughter boards, you can even choose to move the columns around with a different rail system from the example one provided (stable case design coming soon).
 
 ## Pictures:
 <div style="display: flex; justify-content: center;">
