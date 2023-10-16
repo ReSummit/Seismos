@@ -61,7 +61,7 @@ Curious to see what it looks like? Behold, OnShape link that contains questionab
 
 Seismos uses elements found from multiple places for footprints, symbols, and even the idea.
 
-The idea for this keyboard was inspired from the Zebra keyboard. It uses jumper cables but looks to be mainly for having a physical means to determine the layout.
+The idea for this keyboard was inspired from the [Zebra keyboard](https://github.com/nezumee/zebra). It uses jumper cables but looks to be mainly for having a physical means to determine the layout.
 
 For footprints, they are derived from multiple places:
 * [SnapEDA](https://snapeda.com) for JST SH footprints and models.
