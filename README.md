@@ -50,7 +50,7 @@ For this keyboard, you will need:
 Curious to see what it looks like? Behold, OnShape link that contains questionable features that are unlabelled... will get around to it but need a working prototype first!  
 **WARNING: Case made but has not been test fitted with PCB!**  
 <p align="center">
-    <p>Onshape Document (click on picture)</p>
+    <p>Onshape Document (click on picture):</p>
     <a href="https://cad.onshape.com/documents/f7367bff9cd2cc9be8d2436b/w/1f753fadbcf1b9049e256121/e/c4b472236e977df85b7d8a49">
         <img src="pics/onshape.png" alt="OnShape" width="50%">
     </a>
