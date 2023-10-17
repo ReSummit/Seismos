@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 3.0,
-          "height": 3.2,
-          "width": 3.2
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -62,9 +62,9 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
+        "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -73,7 +73,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "warning",
         "hole_near_hole": "warning",
         "invalid_outline": "error",
@@ -83,7 +83,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "ignore",
+        "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -92,13 +92,13 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -411,7 +411,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Seismos_CoreR.kicad_pro",
+    "filename": "Seismos_4-Thumb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -468,10 +468,6 @@
       {
         "netclass": "Power",
         "pattern": "/RGB.*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC"
       }
     ]
   },
@@ -481,7 +477,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Seismos_CoreR.step",
+      "step": "../../../3dmodels/pcb/Seismos_4PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

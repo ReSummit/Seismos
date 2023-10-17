@@ -12,6 +12,8 @@ Since this design utilizes daughter boards, you can even choose to move the colu
 
 # PCB Library Structure
 
+NOTE: If you check the PCB for DRC errors, most of them will come from either the keyboard_reversible.pretty footprint or the switch footprints inherited from the MiRage keyboard. Since both have been used before, they can be ignored.
+
 ## Libraries
 All PCBs in the `pcbs` folder refer to the footprint and symbol libraries found in `libs/Seismos-libs` as well as `libs/keyboard_reversible.pretty`.
 
