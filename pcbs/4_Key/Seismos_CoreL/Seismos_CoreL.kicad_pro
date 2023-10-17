@@ -497,6 +497,10 @@
       {
         "netclass": "Row/Col",
         "pattern": "/Col*"
+      },
+      {
+        "netclass": "Row/Col",
+        "pattern": "ENC*"
       }
     ]
   },
