@@ -7,15 +7,15 @@ Since this design utilizes daughter boards, you can even choose to move the colu
 ## Pictures / Example Column Shifts:
 <div style="display: flex; justify-content: center;">
     <figure>
-        <img src="pics/ortho.jpg" style="width: 50%; margin-right: 10px;">
+        <img src="pics/ortho.jpg" style="width: 25%; margin-right: 10px;">
         <figcaption>Ortholinear Setup</figcaption>
     </figure>
     <figure>
-        <img src="pics/staggered.jpg" style="width: 50%; margin-left: 10px;">
+        <img src="pics/staggered.jpg" style="width: 25%; margin-left: 10px;">
         <figcaption>Staggered Setup</figcaption>
     </figure>
     <figure>
-        <img src="pics/questionable.jpg" style="width: 30%; margin-left: 10px;">
+        <img src="pics/questionable.jpg" style="width: 50%; margin-left: 10px;">
         <figcaption>...or something completely different</figcaption>
     </figure>
 </div>
