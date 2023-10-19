@@ -5,13 +5,17 @@ An evolution of the Zebra keyboard, but can be used for everyday typing. Switch 
 Since this design utilizes daughter boards, you can even choose to move the columns around with a different rail system from the example one provided (stable case design coming soon).
 
 ## Pictures / Example Column Shifts:
-
-![Ortholinear Setup](pics/ortho.jpg "Ortholinear Setup")
-![Staggered Setup](pics/staggered.jpg "Staggered Setup")
-![...or something completely different](pics/questionable.jpg "...or something completely different")
-
-
-
+<div style="display: flex; justify-content: center;">
+    <figure>
+        <img src="pics/ortho.jpg" style="width: 50%; margin-right: 10px;">
+    </figure>
+    <figure>
+        <img src="pics/staggered.jpg" style="width: 25%; margin-left: 10px;">
+    </figure>
+    <figure>
+        <img src="pics/questionable.jpg" style="width: 25%; margin-right: 10px;">
+    </figure>
+</div>
 
 # PCB Library Structure
 
