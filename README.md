@@ -38,22 +38,32 @@ For this release (as of 2023_10_15), there is only a release for 4 key columns. 
 
 I have currently made the columns, left, and right part of the PCB. Currently, the PCB supports 6 columns. Something to know is that due to routing efficiency, the column order is reversed for the right side; however, row number remains the same from top to bottom.
 
+# Important notes for building keyboard
+
+* For the JST SH cables, note that the male to male connector tips should face the same side.
 
 # BOM
-For this keyboard, you will need:
-
+## Required
 * JST SH individual wires and connectors (preferrably 10cm long). Aliexpress has these with different colors like cable mods.
+    * NOTE: For these links, they come from the same seller. Contact the seller after placing a temporary order to reduce shipping costs before paying!
     * Wires: https://www.aliexpress.us/item/3256802676433370.html (choose colors, 10cm, and double head)
     * Connectors: https://www.aliexpress.us/item/3256802084257935.html (choose 9 pin and SMD Horizontal)
 * Parts that can be found from Typeractive.xyz:
-    * EVQPUC02K
-    * SSSS811101 (alternatively on Aliexpress, MSK-12C02 or SW-12C01N-GY18)
+    * EVQPUC02K reset button
+    * SSSS811101 (alternatively on Aliexpress, MSK-12C01 or SW-12C01N-GY18)
     * 110 mAH battery
 * nice!nano (or Arduino Pro Micro compatible footprint)
-* nice!view (or OLED, but won't be aligned to nice!nano)
-* (Optional) SK6812MINI-E
 * 1N4148W Diodes
 * M3 assorted length screws (specific screw lengths to be added later)
+* MX / Choc PCB Sockets (1511 for MX or 1350 for Chocs)
+
+## Optional
+* SK6812MINI-E for RGB
+    * 5x per column from center of keyboard
+        * Example: left and right sides require 60 total for all columns. If you only need 5 columns, then you need 40.
+* nice!view (or OLED, but won't be aligned to nice!nano)
+* Low profile socket pin headers for socketed microcontrollers (or similar)
+* Rotary encoder EC11 (similar to Sofle)
 
 # Case
 Curious to see what it looks like? Behold, OnShape link that contains questionable features that are unlabelled... will get around to it but need a working prototype first!  
