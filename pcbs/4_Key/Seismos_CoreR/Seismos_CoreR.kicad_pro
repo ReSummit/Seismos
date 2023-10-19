@@ -514,7 +514,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Seismos_CoreR.step",
+      "step": "../../../3dmodels/pcb/Seismos_CoreR.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
