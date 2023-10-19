@@ -10,10 +10,10 @@ Since this design utilizes daughter boards, you can even choose to move the colu
         <img src="pics/ortho.jpg" style="width: 100%; margin-right: 10px;">
     </figure>
     <figure>
-        <img src="pics/staggered.jpg" style="width: 50%; margin-left: 10px;">
+        <img src="pics/staggered.jpg" style="width: 49%; margin-left: 10px;">
     </figure>
     <figure>
-        <img src="pics/questionable.jpg" style="width: 50%; margin-right: 10px;">
+        <img src="pics/questionable.jpg" style="width: 49%; margin-right: 10px;">
     </figure>
 </div>
 
