@@ -140,7 +140,7 @@
     (solder_mask_margin 0.102) (tstamp 41a4edcd-b47e-4977-8a66-492b69fef3f5))
   (pad "L2" smd rect (at -2.177 -2.1 180) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 8052fbcf-312e-4b05-8248-99b7975f2bd4))
-  (model "/home/polaris/devFolder/Keyboard Devel/Seismos/libs/Seismos-libs/PCM12SMTR.step"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/PCM12SMTR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

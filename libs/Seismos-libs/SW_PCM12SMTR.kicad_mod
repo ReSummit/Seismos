@@ -72,7 +72,7 @@
   (pad "GND" smd rect (at 3.65 0.965) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 76ed001e-4436-4668-80bd-d637b8b808b4))
   (pad "L1" smd rect (at 2.25 -1.75) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f64bf130-b872-403a-985c-57bca6187b12))
   (pad "L2" smd rect (at -2.25 -1.75) (size 0.7 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d4edadcf-7c67-44e4-bb6d-e85f557e58f3))
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/PCM12SMTR.step"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/PCM12SMTR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -86,7 +86,7 @@
   (pad "MP" thru_hole rect (at 0 5.6) (size 3.2 2) (drill oval 2.8 1.5) (layers "*.Cu" "*.Mask") (tstamp 0534ed27-e3b0-4fd0-a0d8-fc7b46a69924))
   (pad "S1" thru_hole circle (at 7 2.5) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 2a6bad10-e4a6-4360-8d71-ad3c95266e73))
   (pad "S2" thru_hole circle (at 7 -2.5) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b93c4461-fc8b-46fb-a7e9-a3e2fc424172))
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/EC11-THT-15F-thread-green.step"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/EC11-THT-15F-thread-green.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

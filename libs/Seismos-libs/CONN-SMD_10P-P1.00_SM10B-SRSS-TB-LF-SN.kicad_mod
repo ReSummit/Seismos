@@ -1,8 +1,8 @@
 (footprint "CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -5.155) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d19d7e60-3b71-43b2-8e2b-559dd79ccf78)
   )
   (fp_text value "std:27f2220a15ec41c682fa4d3a2558f8e9" (at 0 -2.615) (layer "F.Fab")
@@ -151,13 +151,8 @@
   (pad "10" smd rect (at 4.5 -3.885) (size 0.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 901f1c03-b9b4-4e00-b588-c3548f063e2f))
   (pad "S1" smd rect (at -5.8 -0.01) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 96acb868-a3c3-4399-9071-c0398737803a))
   (pad "S2" smd rect (at 5.8 -0.01) (size 1.2 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f4fb9492-aef1-4a1d-9779-d10da2c1efa1))
-  (model "${KIPRJMOD}/kicad_lceda.3dshapes/CONN-SMD_SH1.00-WS-10P.step"
-    (offset (xyz 0 -0.163 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/kicad_lceda.3dshapes/CONN-SMD_SH1.00-WS-10P.wrl"
-    (offset (xyz 0 -0.163 0))
+  (model "/home/polaris/Seismos/libs/Seismos-libs/SM10B-SRSS-TB.step"
+    (offset (xyz -4.5 3.337 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

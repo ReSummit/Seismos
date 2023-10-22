@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Seismos-sym")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/Seismos-sym.kicad_sym")(options "")(descr ""))
-)

@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Seismos-libs")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/Seismos-libs")(options "")(descr ""))
-  (lib (name "keyboard_reversible")(type "KiCad")(uri "${KIPRJMOD}/../../../libs/keyboard_reversible.pretty")(options "")(descr ""))
-)

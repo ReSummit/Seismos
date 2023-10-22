@@ -132,12 +132,12 @@
     (solder_mask_margin 0.0635) (tstamp edc1b672-6078-4d49-9d89-96427fafdad0))
   (pad "MX2" smd rect (at 6.86 2.54) (size 2.4 2.6) (layers "B.Cu" "B.Paste" "B.Mask")
     (solder_mask_margin 0.0635) (tstamp b89d9c66-c20f-4886-91fb-6b77c3dc0b36))
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/LED_SK6812MINI-E.step"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/LED_SK6812MINI-E.step"
     (offset (xyz -0.142 9.588 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/PG1350-socket.STEP"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/PG1350-socket.STEP"
     (offset (xyz 5.008 -3.812 -1.7))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

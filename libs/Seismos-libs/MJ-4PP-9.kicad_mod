@@ -35,7 +35,7 @@
   (pad "3" thru_hole oval (at 2.1 3.3) (size 1.7 2.5) (drill oval 1 1.5) (layers "*.Cu" "*.Mask" "F.SilkS") (tstamp 0a760703-aab6-4679-8774-dd2316e8d737))
   (pad "4" thru_hole oval (at -2.1 11.3) (size 1.7 2.5) (drill oval 1 1.5) (layers "*.Cu" "*.Mask" "F.SilkS")
     (clearance 0.15) (tstamp 0133c189-e768-4e32-8429-4992748f4424))
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/PJ-320A.step"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/PJ-320A.step"
     (offset (xyz 0 0.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

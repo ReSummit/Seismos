@@ -58,7 +58,7 @@
   (pad "9" smd rect (at 4 -3.875 90) (size 1.55 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1c4e4ac1-d10c-46d1-9629-fc3dceeabf47))
   (pad "S1" smd rect (at -5.3 0 90) (size 1.8 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b4fd4c6e-0aac-4ac0-86de-fbb0161ff078))
   (pad "S2" smd rect (at 5.3 0 90) (size 1.8 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a6f89a79-92ae-465e-b0d6-e6245e52108f))
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/SM09B-SRSS-TB_LF__SN_.step"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/SM09B-SRSS-TB_LF__SN_.step"
     (offset (xyz -2 3.3 -0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

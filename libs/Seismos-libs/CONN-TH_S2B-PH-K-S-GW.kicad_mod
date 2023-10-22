@@ -79,12 +79,7 @@
     (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp c5576133-b1a5-44aa-bd6e-234e20b7601b))
   (pad "1" thru_hole circle (at 1 0) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp d9e15e6d-99bc-4991-bde7-067e0d1edab6))
   (pad "2" thru_hole circle (at -1 0) (size 1.4 1.4) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp b16ce92b-3678-4851-91e2-f376d6149857))
-  (model "${KIPRJMOD}/kicad_lceda.3dshapes/CONN-TH_S2B-PH-K-S-GW.step"
-    (offset (xyz 0 2.465 -3.4))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/CONN-TH_HR-PH2.0-WI-2P.wrl"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/CONN-TH_HR-PH2.0-WI-2P.wrl"
     (offset (xyz 1 0.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

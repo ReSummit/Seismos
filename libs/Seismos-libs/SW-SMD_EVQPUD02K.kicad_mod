@@ -1,8 +1,8 @@
 (footprint "SW-SMD_EVQPUD02K" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -3.207) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  (fp_text reference "REF**" (at -3 0 90) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9a07a019-fb04-41e7-97ab-373ddd9dd7f5)
   )
   (fp_text value "std:e35dd0d21a574dd184a8da3b238e3776" (at 0 -0.667) (layer "F.Fab")
@@ -151,7 +151,7 @@
   (pad "2" smd rect (at 0.85 -2.6 180) (size 1 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 13f4cd2b-610b-49da-b1d5-76cda2ed1312))
   (pad "3" smd rect (at -0.85 2.6 180) (size 1 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a12f97d7-3bb7-42f0-abba-9a15a7e61c3c))
   (pad "4" smd rect (at 0.85 2.6 180) (size 1 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c08035bd-3caa-4c0b-b41b-8a560b3d3f72))
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/SW-SMD_EVQPUD02K-1.wrl"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/SW-SMD_EVQPUD02K-1.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

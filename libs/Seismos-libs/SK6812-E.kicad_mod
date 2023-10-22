@@ -219,7 +219,7 @@
   (pad "2" smd rect (at 2.5019 0.7493) (size 1.8034 0.8128) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 4048aadc-fe86-4887-b92e-a77501981e81))
   (pad "3" smd rect (at -2.5019 0.7493) (size 1.8034 0.8128) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 271770dc-6d4f-4f03-a43c-69ade5fc9604))
   (pad "4" smd rect (at -2.5019 -0.7493) (size 1.8034 0.8128) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 023dadd9-c4fa-48e7-aa9e-ab29b18a7efe))
-  (model "${KIPRJMOD}/../../../libs/Seismos-libs/LED_SK6812MINI-E.step"
+  (model "${KIPRJMOD}/../../../../libs/Seismos-libs/LED_SK6812MINI-E.step"
     (offset (xyz 0 5.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
