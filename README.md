@@ -49,7 +49,7 @@ For the JST SH cables, note that the male to male connector tips should face the
 Example of JST SH cable with male-to-male connectors facing the same side.
 <div style="display: flex; justify-content: center;">
     <figure>
-        <img src="pics/JST_SH9_Cable.jpg" style="width: 25%; margin-right: 10px;">
+        <img src="pics/JST_SH9_Cable.jpg" style="width: 70%; margin-right: 10px;">
     </figure>
 </div>
 
