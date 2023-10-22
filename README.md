@@ -45,10 +45,11 @@ Theoretically, since JST SH connectors are pretty small, we can possibly a maxim
 # Important notes for building keyboard
 
 For the JST SH cables, note that the male to male connector tips should face the same side. An example one is shown below (note it is a 9 pin JST SH cale, but should be the same for 10 pin JST cables).
+
+Example of JST SH cable with male-to-male connectors facing the same side.
 <div style="display: flex; justify-content: center;">
     <figure>
         <img src="pics/JST_SH9_Cable.jpg" style="width: 25%; margin-right: 10px;">
-        <figcaption>Example of JST SH cable with male-to-male connectors facing the same side.</figcaption>
     </figure>
 </div>
 
