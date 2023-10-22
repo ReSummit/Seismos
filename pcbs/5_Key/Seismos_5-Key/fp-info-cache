@@ -1,4 +1,4 @@
-898002514264676
+899700403212604
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88619,6 +88619,13 @@ Seismos-libs
 0
 3
 3
+Seismos-libs
+CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN
+
+
+0
+12
+12
 Seismos-libs
 CONN-TH_S2B-PH-K-S-GW
 

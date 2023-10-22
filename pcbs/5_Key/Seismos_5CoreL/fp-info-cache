@@ -1,4 +1,4 @@
-898002514264676
+911581993169324
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88620,6 +88620,13 @@ Seismos-libs
 3
 3
 Seismos-libs
+CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN
+
+
+0
+12
+12
+Seismos-libs
 CONN-TH_S2B-PH-K-S-GW
 
 
@@ -95941,3 +95948,52 @@ varistor
 0
 2
 2
+keyboard_reversible
+ComboDiode
+Reversible diode footprint
+reversible diode
+0
+6
+2
+keyboard_reversible
+PJ-320A
+Solder-jumper reversible TRRS Socket
+
+0
+18
+4
+keyboard_reversible
+ProMicro
+Solder-jumper reversible Pro Micro footprint
+promicro ProMicro reversible solder jumper
+0
+242
+24
+keyboard_reversible
+ProMicro_expanded
+Solder-jumper reversible Pro Micro footprint (exposed jumpers)
+promicro ProMicro reversible solder jumper
+0
+242
+24
+keyboard_reversible
+ProMicro_expanded_unrouted
+Solder-jumper reversible Pro Micro footprint (exposed jumpers, unrouted)
+promicro ProMicro reversible solder jumper
+0
+170
+24
+keyboard_reversible
+ProMicro_independent
+Solder-jumper reversible Pro Micro footprint (independent sides)
+promicro ProMicro reversible solder jumper
+0
+170
+48
+keyboard_reversible
+ProMicro_unrouted
+Solder-jumper reversible Pro Micro footprint (unrouted)
+promicro ProMicro reversible solder jumper
+0
+170
+24
