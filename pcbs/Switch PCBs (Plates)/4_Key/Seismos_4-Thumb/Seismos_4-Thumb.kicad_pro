@@ -502,7 +502,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../3dmodels/pcb/Seismos_4PCB.step",
+      "step": "../../../../3dmodels/pcb/Seismos_4Thumb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
