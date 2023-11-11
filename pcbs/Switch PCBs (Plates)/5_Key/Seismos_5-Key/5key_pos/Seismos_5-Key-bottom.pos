@@ -1,0 +1,11 @@
+### Footprint positions - created on Sat 04 Nov 2023 11:03:41 AM PDT ###
+### Printed by KiCad version 7.0.8
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+D1        1N4148W   D_SOD-123            2.1500   -12.0500  -90.0000  bottom
+D2        1N4148W   D_SOD-123            2.1500   -31.0500  -90.0000  bottom
+D3        1N4148W   D_SOD-123            2.1500   -50.0500  -90.0000  bottom
+D4        1N4148W   D_SOD-123            2.1500   -69.0500  -90.0000  bottom
+D5        1N4148W   D_SOD-123            2.1500   -88.0500  -90.0000  bottom
+## End
