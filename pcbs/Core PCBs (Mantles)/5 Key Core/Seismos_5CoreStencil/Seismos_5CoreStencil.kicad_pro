@@ -510,7 +510,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../3dmodels/pcb/Seismos_5CoreL.step",
+      "step": "../../../../../../../Seismos_Stencil.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
