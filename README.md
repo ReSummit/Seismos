@@ -6,16 +6,18 @@ Since this design utilizes daughter boards, you can even choose to move the colu
 
 Allows for an interchangeable configuration between 4 and 5 row keys per column. With both halves of the keyboard, you can have a maximum of 68 keys (+2 encoder switches).
 
+**UPDATE** (2023_12_5): If you had downloaded gerber files before this date, ***redownload*** the files as the RGB lights were not wired correctly. Apparently KiCAD displays the back side from the top perspective... doh! This is fixed. I also fixed the power switch so that sliding it up turns on the keyboard rather than this not being congruent on both sides.
+
 ## Pictures / Example Column Shifts:
 <div style="display: flex; justify-content: center;">
     <figure>
-        <img src="pics/ortho.jpg" style="width: 100%; margin-right: 10px;">
+        <img src="pics/built_ortho.jpg" style="width: 100%; margin-right: 10px;">
     </figure>
     <figure>
-        <img src="pics/staggered.jpg" style="width: 49%; margin-left: 10px;">
+        <img src="pics/built_stagger.jpg" style="width: 49%; margin-left: 10px;">
     </figure>
     <figure>
-        <img src="pics/questionable.jpg" style="width: 49%; margin-right: 10px;">
+        <img src="pics/built_question.jpg" style="width: 49%; margin-right: 10px;">
     </figure>
 </div>
 
@@ -34,7 +36,7 @@ git submodule update --init --recursive
 After this, you should not get errors on missing libraries.
 
 ## Current State of PCBs
-**UPDATE** (2023_10_220): New layouts for Core PCBs allow for 5 rows. There are now column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). Please check the BOM again to verify as you now need 10 position JST SH connectors. 9 position JST SH connectors are now deprecated.
+There are column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). Please check the BOM again to verify as you now need 10 position JST SH connectors. 9 position JST SH connectors are now deprecated.
 
 For this release, there are PCBs for 4 and 5 columns. Currently, the left, right, and columns are made with a maximum size of 7x5 keys per side. Something to know is that due to routing efficiency, the column order is reversed for the right side; however, row number remains the same from top to bottom.
 
@@ -89,6 +91,15 @@ Curious to see what it looks like? Behold, OnShape link that contains questionab
     </a>
 </p>
 
+# More Pictures
+<div style="display: flex; justify-content: center;">
+    <figure>
+        <img src="pics/built_left.jpg" style="width: 100%; margin-right: 10px;">
+    </figure>
+    <figure>
+        <img src="pics/built_left_back.jpg" style="width: 100%; margin-right: 10px;">
+    </figure>
+</div>
 
 # References
 
