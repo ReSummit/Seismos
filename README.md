@@ -36,13 +36,16 @@ git submodule update --init --recursive
 After this, you should not get errors on missing libraries.
 
 ## Current State of PCBs
-There are column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). Please check the BOM again to verify as you now need 10 position JST SH connectors. 9 position JST SH connectors are now deprecated.
+There are column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). This means you can get a max total of 68 keys, plus two if you are using the rotart encoder as buttons.
 
 For this release, there are PCBs for 4 and 5 columns. Currently, the left, right, and columns are made with a maximum size of 7x5 keys per side. Something to know is that due to routing efficiency, the column order is reversed for the right side; however, row number remains the same from top to bottom.
 
 ## PCB Design Thoughts
 Theoretically, since JST SH connectors are pretty small, we can possibly a maximum of 12 pins, which means that you can get at most ~7 rows per column... if the microcontroller has that many pins!
-(NOTE: A suggestion to reduce pin count is to wire the 1x4 keys as a 2x2 key setup to save pins; however, this results in a 2x2n keyboard layout, which will likely be a pain... Still interesting though to point out.)
+
+Some future design thoughts:
+* A suggestion to reduce pin count is to wire the 1x4 keys as a 2x2 key setup to save pins; however, this results in a 2x2n keyboard layout, which will likely be a pain... Still interesting though to point out.
+* ZMK has a pull request that is introducing charlieplexing, which will reduce the pin count. If this is done per half, it may be possible to have a 70% keyboard on both sides with 10 rows per column (5 forward diodes, 5 backwards diodes). There's quite a lot of room here but currently it is still in development.
 
 # Important notes for building keyboard
 
@@ -57,33 +60,44 @@ Example of JST SH cable with male-to-male connectors facing the same side.
 
 # BOM
 ## Required
-* JST SH individual wires and connectors (preferrably 10cm long). Aliexpress has these with different colors like cable mods.
+* 28 x 10 position JST SH individual wires and connectors (preferrably 10cm long). Aliexpress has these with different colors like cable mods.
     * NOTE: For these links, they come from the same seller. Contact the seller after placing a temporary order to reduce shipping costs before paying!
     * Wires: https://www.aliexpress.us/item/3256802676433370.html (choose colors, **10 cm**, and **double head**)
         * For 5 rows, 10 cm is typically enough; you may be surprised at how far the columns can go with this. However, if you plan on changing the case design, you may need 15 cm if your columns need to go farther.
     * Connectors: https://www.aliexpress.us/item/3256802084257935.html (choose **10 pin** and **SMD Horizontal**)
 * Parts that can be found from Typeractive.xyz:
-    * EVQPUC02K reset button
-    * SSSS811101 (alternatively on Aliexpress, MSK-12C01 or SW-12C01N-GY18)
-    * 110 mAH battery
-* nice!nano (or Arduino Pro Micro compatible footprint)
-* 1N4148W Diodes
-* M3 assorted length screws (specific screw lengths to be added later)
-* MX / Choc PCB Sockets (1511 for MX or 1350 for Chocs)
+    * 2 x EVQPUC02K reset button
+    * 2 x SSSS811101 (alternatively on Aliexpress, MSK-12C01 or SW-12C01N-GY18)
+    * 2 x 110 mAH battery (since TRRS does not have 5V, you need batteries; may change later)
+* 2 x nice!nano (or Arduino Pro Micro compatible footprint)
+* 56-70 x 1N4148W Diodes (variable number depending on how many keys you want)
+* M3 assorted length screws (see case section for more details)
+* 56-70 x MX / Choc PCB Sockets (1511 for MX or 1350 for Chocs)
 
 ## Optional
-* SK6812MINI-E for RGB
+* 56-68 x SK6812MINI-E for RGB
     * 6x per column from center of keyboard + 4 for thumb
         * Example: left and right sides require 80 total for all columns. If you only need 5 columns, then you need 68.
-* nice!view (or OLED, but won't be aligned to nice!nano)
-* Low profile socket pin headers for socketed microcontrollers (or similar)
-* Rotary encoder EC11 (similar to Sofle)
-* PJ320A headphone jacks 
+* 2 x nice!view (or OLED, but won't be aligned to nice!nano)
+* 4 x Low profile socket pin headers for socketed microcontrollers (or similar)
+* 2 x Rotary encoder EC11 (similar to Sofle)
+* 2 x PJ320A headphone jacks 
     * **NOTE**: Due to me wanting to allow for wireless or wired setups, **the current PCB design will not charge the other keyboard side**. This is because VCC is disconnected to avoid blowing up the charging circuit of the nice!nano. If you need it, you may need to modify the PCB and schematic to allow for this.
 
 # Case
-Curious to see what it looks like? Behold, OnShape link that contains questionable features that are unlabelled... will get around to it but need a working prototype first!  
-**WARNING: Case made but has not been test fitted with PCB! It is also using an older version of the PCB and only have 4 rows.**  
+Curious to see what it looks like? Behold, OnShape link that contains questionable features that are unlabelled... This case works with the PCBs and allows for sliding rails, but won't lock the rails. A better design is in the works, but this is a good start.
+
+**This design requires the following additional parts:**
+* Countersunk M3 screws:
+    * 24 M3x12mm
+        * Mounts down the PCB to each column plate frame into the bottom stopper
+    * 3 M3x8mm
+        * Holds down the rails for the keyboard
+    * 14 M3x6mm
+        * Corresponding nuts for the top stopper screws located near the top of each column needed
+    * 2 M3x5mm
+        * For the holes near the encoder and display
+
 <p align="center">
     <p>Onshape Document (click on picture):</p>
     <a href="https://cad.onshape.com/documents/f7367bff9cd2cc9be8d2436b/w/1f753fadbcf1b9049e256121/e/c4b472236e977df85b7d8a49">
@@ -93,11 +107,19 @@ Curious to see what it looks like? Behold, OnShape link that contains questionab
 
 # More Pictures
 <div style="display: flex; justify-content: center;">
+    More pictures of build:
     <figure>
-        <img src="pics/built_left.jpg" style="width: 100%; margin-right: 10px;">
+        <img src="pics/built_left.jpg" style="width: 49.5%; margin-right: 10px;">
     </figure>
     <figure>
-        <img src="pics/built_left_back.jpg" style="width: 100%; margin-right: 10px;">
+        <img src="pics/built_left_back.jpg" style="width: 49.5%; margin-right: 10px;">
+    </figure>
+    Development case design:
+    <figure>
+        <img src="pics/ortho.jpg" style="width: 49.5%; margin-right: 10px;">
+    </figure>
+    <figure>
+        <img src="pics/questionable.jpg" style="width: 49.5%; margin-right: 10px;">
     </figure>
 </div>
 
