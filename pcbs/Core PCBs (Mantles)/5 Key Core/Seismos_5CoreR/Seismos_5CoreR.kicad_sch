@@ -275,6 +275,55 @@
         )
       )
     )
+    (symbol "Seismos-sym:Jumper_2_Open" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "JP1" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Jumper_2_Open" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Jumper SPST" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Jumper, 2-pole, open" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Jumper_2_Open_0_0"
+        (circle (center -2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.032 0) (radius 0.508)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Jumper_2_Open_0_1"
+        (arc (start 1.524 1.27) (mid 0 1.778) (end -1.524 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Jumper_2_Open_1_1"
+        (pin passive line (at -5.08 0 0) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.54)
+          (name "B" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Seismos-sym:MJ-4PP-9-Lily58" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -8.89 -7.62 0)
         (effects (font (size 1.524 1.524)))
@@ -564,6 +613,45 @@
         (pin input line (at -16.51 -6.35 0) (length 5.08)
           (name "D6(PD7)" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Seismos-sym:Resistor" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Resistor" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Resistor_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Resistor_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1032,6 +1120,10 @@
     (stroke (width 0) (type default))
     (uuid 11b92bef-8c7a-41b5-afd7-56813ab55d2c)
   )
+  (wire (pts (xy 297.18 160.02) (xy 297.18 165.1))
+    (stroke (width 0) (type default))
+    (uuid 146892ec-7dd6-4e3d-bd9e-47fb6695796c)
+  )
   (wire (pts (xy 237.49 80.01) (xy 229.87 80.01))
     (stroke (width 0) (type default))
     (uuid 14feb618-a34a-4742-83cf-7aa728d92974)
@@ -1100,6 +1192,10 @@
     (stroke (width 0) (type default))
     (uuid 22eaf6f9-b41b-4d79-a078-afd663fcf94f)
   )
+  (wire (pts (xy 304.8 160.02) (xy 304.8 165.1))
+    (stroke (width 0) (type default))
+    (uuid 23c6adac-6240-47e0-8ea9-4575a6c6fb97)
+  )
   (wire (pts (xy 115.57 80.01) (xy 115.57 82.55))
     (stroke (width 0) (type default))
     (uuid 2580e148-cfc3-4c0b-baad-dd6442f188d8)
@@ -1108,9 +1204,17 @@
     (stroke (width 0) (type default))
     (uuid 26521c0a-3abe-4ed2-b850-057af4fb9a72)
   )
+  (wire (pts (xy 297.18 160.02) (xy 304.8 160.02))
+    (stroke (width 0) (type default))
+    (uuid 2779faf4-8329-4cea-8272-6c8a0e5d6449)
+  )
   (wire (pts (xy 373.38 54.61) (xy 381 54.61))
     (stroke (width 0) (type default))
     (uuid 2915e139-13b6-4dd0-9865-6b1bbe1c6474)
+  )
+  (wire (pts (xy 304.8 172.72) (xy 304.8 176.53))
+    (stroke (width 0) (type default))
+    (uuid 292dc7e3-4e7a-4574-ad45-ae29b2fc2e70)
   )
   (wire (pts (xy 102.87 59.69) (xy 102.87 72.39))
     (stroke (width 0) (type default))
@@ -1248,7 +1352,7 @@
     (stroke (width 0) (type default))
     (uuid 61c5bf79-5b8a-46f3-9111-3c306cd9d905)
   )
-  (wire (pts (xy 300.99 134.62) (xy 314.96 134.62))
+  (wire (pts (xy 306.07 127) (xy 311.15 127))
     (stroke (width 0) (type default))
     (uuid 62ee4431-e811-40e9-a447-467a5232acbe)
   )
@@ -1311,6 +1415,10 @@
   (wire (pts (xy 373.38 69.85) (xy 389.89 69.85))
     (stroke (width 0) (type default))
     (uuid 719bf59b-0220-4f6d-850b-e26d422c09ec)
+  )
+  (wire (pts (xy 320.04 138.43) (xy 326.39 138.43))
+    (stroke (width 0) (type default))
+    (uuid 71d0b20e-0e5d-48e6-8319-cad380be3775)
   )
   (wire (pts (xy 176.53 59.69) (xy 176.53 72.39))
     (stroke (width 0) (type default))
@@ -1436,6 +1544,10 @@
     (stroke (width 0) (type default))
     (uuid 9c006f49-900e-4862-aeba-afe882ef98e3)
   )
+  (wire (pts (xy 306.07 127) (xy 306.07 134.62))
+    (stroke (width 0) (type default))
+    (uuid 9dac029f-fe4b-4f14-847f-b1156bfaa623)
+  )
   (wire (pts (xy 52.07 113.03) (xy 52.07 74.93))
     (stroke (width 0) (type default))
     (uuid 9e1ea1ee-2d89-4e15-8379-73e0656327d5)
@@ -1492,6 +1604,10 @@
     (stroke (width 0) (type default))
     (uuid ae04e37e-e1a8-46a6-a98c-819af627161b)
   )
+  (wire (pts (xy 297.18 172.72) (xy 297.18 176.53))
+    (stroke (width 0) (type default))
+    (uuid af639188-cd6b-472c-a787-40b664c19c0f)
+  )
   (wire (pts (xy 82.55 59.69) (xy 82.55 76.2))
     (stroke (width 0) (type default))
     (uuid afadbb3a-fbdb-412e-8480-e4993402c75b)
@@ -1523,6 +1639,10 @@
   (wire (pts (xy 217.17 76.2) (xy 217.17 113.03))
     (stroke (width 0) (type default))
     (uuid b9fb25b3-7a15-4676-a8a0-4e1bc058af4e)
+  )
+  (wire (pts (xy 306.07 134.62) (xy 300.99 134.62))
+    (stroke (width 0) (type default))
+    (uuid bb491fa8-bab1-4148-86b4-d72af20f96bf)
   )
   (wire (pts (xy 346.71 187.96) (xy 358.14 187.96))
     (stroke (width 0) (type default))
@@ -1655,6 +1775,10 @@
   (wire (pts (xy 26.67 59.69) (xy 26.67 72.39))
     (stroke (width 0) (type default))
     (uuid e5d83234-8012-4cd4-aebc-d408da3f4f90)
+  )
+  (wire (pts (xy 300.99 138.43) (xy 309.88 138.43))
+    (stroke (width 0) (type default))
+    (uuid e7ec48c2-cea6-4905-9429-7751671f5947)
   )
   (wire (pts (xy 72.39 59.69) (xy 72.39 72.39))
     (stroke (width 0) (type default))
@@ -1964,6 +2088,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 95843650-c966-4d3e-ae8f-38482a1c607c)
   )
+  (label "V+" (at 302.26 160.02 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 97029f30-aa21-4dc4-89ea-f831db7318b8)
+  )
   (label "Row1" (at 224.79 72.39 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9999d0e5-d119-4ac0-b965-cfe44b234764)
@@ -2003,6 +2131,10 @@
   (label "V+" (at 389.89 62.23 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c4f62dd4-2fe6-4f12-be09-b482030ac43c)
+  )
+  (label "V+" (at 326.39 138.43 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c605cb61-52b7-4f57-bc2a-30d472647647)
   )
   (label "V+" (at 345.44 180.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2148,10 +2280,17 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "SCL" (shape input) (at 314.96 134.62 0)
+  (global_label "SDA" (shape input) (at 297.18 176.53 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4e9ed968-5703-4d11-97f5-9c6a6da035bd)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 297.18 183.0833 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "SCL" (shape input) (at 311.15 127 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6d093a24-8bee-42c4-bc42-1cf48b1ca6b8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 314.96 134.62 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 311.15 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -2204,6 +2343,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "SCL" (shape input) (at 304.8 176.53 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid cf965a7e-31a2-4569-80e6-d51b87cc59c0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 304.8 183.0228 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "CS" (shape input) (at 354.33 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fb074dad-6d73-4f20-930b-d058f89d148a)
@@ -2242,18 +2388,18 @@
     (property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5" (at 226.0092 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f11f5c4-931e-4798-8394-74a3cb4ecc71))
-    (pin "10" (uuid 4a941103-f073-44da-a123-ff60daad89a4))
-    (pin "2" (uuid 55748eef-a214-48da-8fe5-99ef68b22c53))
-    (pin "3" (uuid 681713c7-f3dc-43bd-a6b6-ec82afa46f6d))
-    (pin "4" (uuid 951c9585-e116-48d3-a7cc-57b0fb01cd7b))
-    (pin "5" (uuid 3566c3a3-5b3b-4357-858b-f6bc18bc21fd))
-    (pin "6" (uuid ce960005-a4fe-4ba4-93c4-64ecd45347bf))
-    (pin "7" (uuid 1fefa14c-caaf-4aa4-accd-277b4d8da257))
-    (pin "8" (uuid b327c9a0-d998-4704-9815-58a2a4e78675))
-    (pin "9" (uuid 04aac7d0-9b8c-4dbf-afec-db24c333630c))
-    (pin "S1" (uuid 1a24a67f-f1ef-45ea-8b6f-8ec7e834c16a))
-    (pin "S2" (uuid 97fa6fea-edba-42fb-a7ae-c38d5b3ce0bb))
+    (pin "1" (uuid c1dd970c-55a1-4de8-adce-003f38310ed2))
+    (pin "10" (uuid c399e6e3-3575-41ba-bc32-72fe9b23e1e5))
+    (pin "2" (uuid 59f3d4ad-d6f9-4086-adae-d713bbebb000))
+    (pin "3" (uuid 85bcc3c3-fdb3-4613-99e8-cdaeddb912d9))
+    (pin "4" (uuid 0203701d-8cbf-4601-bdde-fe8ef92aefc8))
+    (pin "5" (uuid 0dfe9078-3196-4d00-af7d-685a4313466b))
+    (pin "6" (uuid 413210b1-2419-4746-bba0-135781bb0202))
+    (pin "7" (uuid 818a9d22-720a-4707-af04-38e03dd1a937))
+    (pin "8" (uuid 2f6e5d16-9de1-4b1d-b64a-54899b991a70))
+    (pin "9" (uuid 83c6ce4d-2623-4648-8442-6c112f559396))
+    (pin "S1" (uuid 63589604-d1b5-4bc6-9788-64dcf1ccb745))
+    (pin "S2" (uuid 8b627256-a304-4e82-8867-e5753abaa4e4))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2278,7 +2424,7 @@
     (property "Datasheet" "" (at 52.07 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36f26323-23ed-482c-8f8c-4ae1146569bd))
+    (pin "1" (uuid 6bc5891a-cb51-4a3f-8ca8-8751034cbcf5))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2303,11 +2449,11 @@
     (property "Datasheet" "~" (at 360.68 97.536 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid cc67bbe8-b3e7-4825-899c-ef2dc0d69abf))
-    (pin "B" (uuid 6306aae9-13b3-46be-b4ed-8d72dfde6ee7))
-    (pin "C" (uuid 452c5648-9ffa-4d4b-8559-1b8f845c1c0a))
-    (pin "S1" (uuid c4e188a4-58dc-48e7-aaae-521283240a2f))
-    (pin "S2" (uuid df0be5ca-146c-4e49-aa7e-2779a1c945d9))
+    (pin "A" (uuid 4899470e-7426-4df3-950a-f138dfd655a3))
+    (pin "B" (uuid d3991287-8471-42b7-9f0c-d72fb3b93efa))
+    (pin "C" (uuid 48d16ae8-d89a-46e6-8a1f-ddcacf7e510b))
+    (pin "S1" (uuid 192e4c94-74fb-4375-acdd-892505ec547f))
+    (pin "S2" (uuid 558b3a48-23d9-4ada-8885-3cf3aed65e6d))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2332,7 +2478,7 @@
     (property "Datasheet" "" (at 242.57 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5b92d4a2-bdbc-4e34-97a2-f0c134f1dbf2))
+    (pin "1" (uuid 8c5b0b56-3ff4-4987-80e2-961c0535437e))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2357,7 +2503,7 @@
     (property "Datasheet" "" (at 44.45 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba93bf8f-567f-49f7-b09a-cba75495b684))
+    (pin "1" (uuid 1fbdddb1-3fb1-4daa-8a7c-2de5d96d5360))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2382,10 +2528,10 @@
     (property "Datasheet" "" (at 77.47 118.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid c04cf1a0-dce4-4a4e-b9ff-cfc77922fc13))
-    (pin "2" (uuid 755c91e9-5148-4f12-9bcd-21db6382cc7f))
-    (pin "3" (uuid 545efc51-3034-4518-b8ba-302fc83252f5))
-    (pin "4" (uuid d8911ba3-b788-499f-b512-80a341afbc98))
+    (pin "1" (uuid 023f8136-fb10-41a6-81ef-102ed53218f0))
+    (pin "2" (uuid 70c42f20-c4ad-4329-81c5-788e32c13ec6))
+    (pin "3" (uuid fb2c1ab6-4480-45c0-bcdf-3bb3b6b03918))
+    (pin "4" (uuid ed246cb2-6531-4eb2-828a-e88a0ede1e46))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2416,10 +2562,10 @@
     (property "uuid" "std:89571b53ad64408584c96bcda364818c" (at 295.91 67.183 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0fad848b-01d3-4a5f-bac8-89abb241a576))
-    (pin "2" (uuid d102ef97-39e7-48d1-995f-98115bbc94e5))
-    (pin "3" (uuid 4b050c7a-cdf8-4121-b548-aebfa370c4bb))
-    (pin "4" (uuid 1a57f078-1804-4df3-b20e-cd7a844ecfa7))
+    (pin "1" (uuid 1c9cd173-13f5-4695-9c32-8be73edc2540))
+    (pin "2" (uuid b84e2d4b-f5a1-4e02-ad10-fa2f554038e0))
+    (pin "3" (uuid 4b66a2f9-eae7-42a3-8f94-44f510ec7106))
+    (pin "4" (uuid 54cd4c56-cc9e-4526-8bb3-bdf5e4bcb2c1))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2444,10 +2590,10 @@
     (property "Datasheet" "" (at 191.77 118.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 9e4d80ff-27ac-41da-b49f-3999f95554fd))
-    (pin "2" (uuid 91661342-77dc-46ef-b29d-e45575867eba))
-    (pin "3" (uuid e8c01981-ccd4-4bc4-982c-09b8613bc2fd))
-    (pin "4" (uuid 78c17a05-1491-451d-adb2-1a007b73d9f5))
+    (pin "1" (uuid da53e46d-accd-4de3-bf6d-e3215e42b61d))
+    (pin "2" (uuid f0d5446a-ca9a-4a0f-8119-ac3d4e7a6933))
+    (pin "3" (uuid cab15446-bf35-47e3-a713-c65486d6f016))
+    (pin "4" (uuid 16da823f-b79b-4387-ae5b-fbc7680ddea8))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2487,18 +2633,18 @@
     (property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5" (at 187.9092 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 695dd976-1532-44e5-8b97-1a8dd727816f))
-    (pin "10" (uuid e6f0de2d-09e8-4a40-a6e3-96dc47b74215))
-    (pin "2" (uuid 511db318-f102-43c2-abc1-6870918508d3))
-    (pin "3" (uuid 16e76c23-f43e-42bd-85ef-5fd56bc35caa))
-    (pin "4" (uuid 3dfe2b98-82d4-404b-84c5-5d527943be2a))
-    (pin "5" (uuid 0d16f3c7-b0c4-45a3-9e75-8caa3bf47588))
-    (pin "6" (uuid 2e7d17bb-9087-439c-a06b-078a6f2611ed))
-    (pin "7" (uuid 35751321-1c18-4308-aa29-bf789399019f))
-    (pin "8" (uuid c30090b6-7e34-4fb3-8453-bc965c7ad46f))
-    (pin "9" (uuid 5d58acd4-e687-47fd-a948-54833192c5d0))
-    (pin "S1" (uuid 2f7b71d0-b79f-461e-9d65-d8783c6e396a))
-    (pin "S2" (uuid 7c40ddd3-26a2-42a4-aa81-123856ec2a7b))
+    (pin "1" (uuid 97ca8950-466c-42de-821a-6c8bcf38be4c))
+    (pin "10" (uuid fc581e38-0495-481d-9801-13acb5492d41))
+    (pin "2" (uuid 9fd43199-10ba-4385-858d-02c7681ea839))
+    (pin "3" (uuid 18922bd2-485b-4fbf-9329-c744d5cc6701))
+    (pin "4" (uuid 6e477017-194d-4348-9708-e5ec794e49a7))
+    (pin "5" (uuid cf6c881c-8932-4535-a63d-0d9808f80372))
+    (pin "6" (uuid d420a2c7-a1c1-4f64-96ab-70d1e340ed40))
+    (pin "7" (uuid bf102e33-a81a-48f3-a87d-c1e978403dba))
+    (pin "8" (uuid 0c991db7-6d19-4dfd-ad36-467c7336cbf8))
+    (pin "9" (uuid ec56bf9b-3163-4f0f-a31a-2f820f14eabd))
+    (pin "S1" (uuid 90bd4cb9-a497-4874-abb0-13605b6ff3bc))
+    (pin "S2" (uuid 6a0ce24f-640f-419b-990a-5f8f25300bfb))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2523,11 +2669,37 @@
     (property "Datasheet" "" (at 74.93 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e5db95a-4c7c-4eef-af3f-d188d445d72c))
+    (pin "1" (uuid d993ae0c-6cbc-4e21-bc8a-16b9b8afc4f9))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
           (reference "#PWR023") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Seismos-sym:Jumper_2_Open") (at 314.96 138.43 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 20dd1f07-781a-4a0b-a17c-7c4f0ed760eb)
+    (property "Reference" "JP1" (at 314.96 132.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Jumper_2_Open" (at 314.96 134.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (at 314.96 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 314.96 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a4caf684-f189-4169-b2a8-2238c07d6d45))
+    (pin "2" (uuid 4b71905a-8da6-4e69-88e6-9197fd23f1e8))
+    (instances
+      (project "Seismos_5CoreR"
+        (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -2563,18 +2735,18 @@
     (property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5" (at 111.7092 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eabbd037-6af6-41dd-8470-4fe585da4cd7))
-    (pin "10" (uuid cf041527-b37f-4823-9ebe-a45b62cf355b))
-    (pin "2" (uuid 2026f300-e492-4416-a360-a13a1c91ed6b))
-    (pin "3" (uuid bf08636b-6577-436e-94f8-9ae76f05b658))
-    (pin "4" (uuid ac098a0f-7c33-4b2d-95b4-965929b55762))
-    (pin "5" (uuid 681d53a7-ac3e-4fec-a25f-e6c2e0d4af89))
-    (pin "6" (uuid 60f00552-08ab-4971-9967-3f1fd857d2c0))
-    (pin "7" (uuid 749ad71d-3fc8-4b92-a535-096840b2771a))
-    (pin "8" (uuid 03a9c2b2-6dc9-4c39-bb11-1c73d8ffaa22))
-    (pin "9" (uuid d16b5744-311a-473f-81e3-0680c1c27fea))
-    (pin "S1" (uuid b515d4a1-b4c9-4055-88a3-20b020b0eb0c))
-    (pin "S2" (uuid 468eb118-6648-46e9-8e63-eb704bdd4f5c))
+    (pin "1" (uuid cee5b662-db69-4bf6-8282-5e86a199b314))
+    (pin "10" (uuid 7f697b81-ac52-4219-94e8-63f245d96103))
+    (pin "2" (uuid 19a7fd4d-2b23-4729-82bf-46340f58de43))
+    (pin "3" (uuid 332374d5-8c46-4d17-be64-8e5ba880066b))
+    (pin "4" (uuid 8056473b-a367-40ce-a426-163cf4b13c6d))
+    (pin "5" (uuid b65892c3-195a-4431-98da-ef5e800bce7a))
+    (pin "6" (uuid cec2fb9e-ff9e-40cd-b75a-e170daadea63))
+    (pin "7" (uuid a232c016-ae4d-43a4-86ac-fa97f73b9fbe))
+    (pin "8" (uuid 15a89dc7-18e4-4968-993f-25373b5c4353))
+    (pin "9" (uuid a1c39000-9985-4002-a9ae-379f2896583d))
+    (pin "S1" (uuid e2b6f8dd-f67d-4e1b-a8ac-d31b5d4611d1))
+    (pin "S2" (uuid c9d1bbce-0799-43ba-9416-aaea19549685))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2599,10 +2771,10 @@
     (property "Datasheet" "" (at 229.87 118.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 59ec0a94-1acf-42c9-a165-4720a35d39b0))
-    (pin "2" (uuid 0f05adb9-8f99-4764-ae3a-3d4a1cedfc9e))
-    (pin "3" (uuid 9de0dd4f-4b27-4629-a3b3-6c843bd07d8f))
-    (pin "4" (uuid 9934fb64-6c4c-4d2c-a897-dff5a822a6d8))
+    (pin "1" (uuid ba69f0d9-95c3-4c5e-a3b7-b3b04708fef2))
+    (pin "2" (uuid 867cd5bc-34d9-46c4-8b17-982378bd36a6))
+    (pin "3" (uuid 300054e2-fbed-479a-bb9d-c6de87696f75))
+    (pin "4" (uuid ef05acb5-183c-40df-b4d2-471601d7bc20))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2642,18 +2814,18 @@
     (property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5" (at 35.5092 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d968d0b2-87ee-43df-a728-f9e30113948e))
-    (pin "10" (uuid 672778cf-ef2a-4163-8b52-237b1c0b523f))
-    (pin "2" (uuid c91db7ff-cc0c-4f6a-ab0d-f49bb8922db4))
-    (pin "3" (uuid c60cd2fd-cb8d-4a56-ac11-319a26bbc9ed))
-    (pin "4" (uuid da3a98c7-0a2e-4d9b-824b-08993a002a2a))
-    (pin "5" (uuid 990fea9e-746f-4536-a37c-45867755cd13))
-    (pin "6" (uuid 85fb864a-3710-43fa-a0d1-5cf100db6a7e))
-    (pin "7" (uuid e06ec37b-67d4-4765-8031-6bc6e9df2dde))
-    (pin "8" (uuid 7e7d652f-0c4b-4510-bdde-b8393e109a8a))
-    (pin "9" (uuid 220ecb56-90d8-4969-93e3-b9f9ce872d64))
-    (pin "S1" (uuid 6bf334b7-077c-49d7-abc3-1a7bd62ea905))
-    (pin "S2" (uuid d24c1adb-8749-4fff-9a11-2b058aeabd57))
+    (pin "1" (uuid 2a558d10-0fb0-4f61-8180-f448f62ed4c2))
+    (pin "10" (uuid f015e150-299a-4780-8524-e57f26a843c5))
+    (pin "2" (uuid 08d9fdd8-72db-4857-822a-ac23fe3643d0))
+    (pin "3" (uuid a5e596b4-3149-4a83-8b1e-beaf6878b3c3))
+    (pin "4" (uuid a6d2d578-53ab-40c1-b3e1-64539e186979))
+    (pin "5" (uuid 26fdcd37-3a95-43f9-88b2-b983d7ac1566))
+    (pin "6" (uuid eb7ae7f9-b1d5-499d-ac6a-fa75b766569e))
+    (pin "7" (uuid f9247d84-04ec-4150-8d06-a59d5f9528b8))
+    (pin "8" (uuid 73e98af0-3177-4fa7-a68e-9bd6b8fc60dc))
+    (pin "9" (uuid 9833e154-cb9b-464f-9689-d418a2ef6b74))
+    (pin "S1" (uuid 5134fd46-892b-433a-beaa-888755adbdb1))
+    (pin "S2" (uuid a847a6db-a96a-4fd3-a336-f868de4187c9))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2684,8 +2856,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 374.65 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 96ec781a-0d64-4769-99f4-356128b67259))
-    (pin "2" (uuid 715afd32-8d1a-4924-8691-c92b38e8e478))
+    (pin "1" (uuid 7b2c030e-849e-4a4f-9b49-f340665e9cd6))
+    (pin "2" (uuid 2a907672-594b-4351-8c8a-d54d8003a809))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2710,10 +2882,10 @@
     (property "Datasheet" "" (at 153.67 118.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid f3ed5ee8-adab-4bb6-811d-0fc633f242b4))
-    (pin "2" (uuid 502eda0a-feaf-4784-950c-aa06c293a3d6))
-    (pin "3" (uuid 2f950061-125d-463c-b5e6-27dce46682bb))
-    (pin "4" (uuid f3f41df0-d2c4-4cb2-aa6d-18025a6c9afc))
+    (pin "1" (uuid 95b43296-ceb0-481d-83af-7d659329f913))
+    (pin "2" (uuid 523487a5-faeb-49f2-80a0-5fd80b491d91))
+    (pin "3" (uuid 1372f746-cf20-4030-b1dc-668b09b6783c))
+    (pin "4" (uuid 32aee077-1a0c-4646-a76a-aad53d8bcd6e))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2738,7 +2910,7 @@
     (property "Datasheet" "" (at 204.47 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98b666e2-88e7-4546-9ba7-ac860685a10e))
+    (pin "1" (uuid 926e2b9d-8ece-45ae-a0de-124893ddff53))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2763,7 +2935,7 @@
     (property "Datasheet" "" (at 303.53 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ba7b499-b05b-4b9b-b05c-06c4e4a64ab4))
+    (pin "1" (uuid baab188e-980e-46f1-a2b1-0dc1f7e84c50))
     (instances
       (project "KeysOnRails_Carrier1"
         (path "/a6dae978-c8fe-4bbf-835b-e2bd64164dfb"
@@ -2793,7 +2965,7 @@
     (property "Datasheet" "" (at 234.95 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2fb8f61-9ed8-4511-a2c3-e95f823dc9a3))
+    (pin "1" (uuid 78a637f1-3c3d-4709-b144-e0281760ac19))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2818,11 +2990,37 @@
     (property "Datasheet" "" (at 227.33 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f2861f4-46da-48c9-98d5-eb8c5bf6066e))
+    (pin "1" (uuid e812a2e6-e2be-4c43-9667-8f0d91b55c3d))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
           (reference "#PWR026") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Seismos-sym:Resistor") (at 304.8 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5aaefe52-619c-400e-a6ad-c25c59700d17)
+    (property "Reference" "R2" (at 307.34 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R" (at 307.34 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 303.022 168.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 304.8 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1de45c46-c00b-462d-9b2d-188735072652))
+    (pin "2" (uuid 74886f17-e99c-4d2d-882b-6e8ce05d0c42))
+    (instances
+      (project "Seismos_5CoreR"
+        (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2843,7 +3041,7 @@
     (property "Datasheet" "" (at 337.82 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4946615c-9128-4e95-a5c7-898a4f69a4db))
+    (pin "1" (uuid 8a4d6b7b-c3e5-4b8a-8f18-e498fe40c2a4))
     (instances
       (project "KeysOnRails_Carrier1"
         (path "/a6dae978-c8fe-4bbf-835b-e2bd64164dfb"
@@ -2853,6 +3051,32 @@
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
           (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Seismos-sym:Resistor") (at 297.18 168.91 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5bc862d5-0468-4f21-a850-9aff6f8f59d3)
+    (property "Reference" "R1" (at 299.72 167.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "R" (at 299.72 170.18 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 295.402 168.91 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 297.18 168.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 69269396-319c-4946-8108-870e7b7a510f))
+    (pin "2" (uuid 11b64a95-b73c-4589-91c6-7e392661367a))
+    (instances
+      (project "Seismos_5CoreR"
+        (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2873,7 +3097,7 @@
     (property "Datasheet" "" (at 74.93 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f47eaeb-f8d7-4785-855e-e1ac9a8b63f6))
+    (pin "1" (uuid ed32fa58-efc6-4b2d-85d6-0cdca64e97da))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2898,30 +3122,30 @@
     (property "Datasheet" "" (at 355.6 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 101c2af4-57c5-49e4-b206-3ddeceb4559d))
-    (pin "10" (uuid 9393ddf3-65e6-4562-b18f-8ed7d0b00a31))
-    (pin "11" (uuid e13a4ed7-3d19-487c-a7dd-4980fe077d6f))
-    (pin "12" (uuid 1f54e970-01a6-4745-8be5-66ae29cb1add))
-    (pin "13" (uuid dd67476e-b365-4151-b5af-8785dda7ee58))
-    (pin "14" (uuid 3db02263-0ca3-4507-ba11-f90e399a72a6))
-    (pin "15" (uuid 7ad9f1e1-8d32-4b5f-be3a-e4041273d97f))
-    (pin "16" (uuid 2417eaeb-bc3b-4253-9a8f-aa41812c6af4))
-    (pin "17" (uuid 4dcf402a-8a33-4721-82f9-186f410a7d22))
-    (pin "18" (uuid 95f3dce2-5259-4cc5-ad8b-27bb1af4c1e8))
-    (pin "19" (uuid b27ada1f-611b-4816-a36e-ceda0ffd19ec))
-    (pin "2" (uuid 88ec1481-fb3a-48ed-824c-2ab10518be85))
-    (pin "20" (uuid 4182bd95-e6ba-4ed5-b7a3-a13fff4556e5))
-    (pin "21" (uuid 63984053-4436-452d-8894-7d30d52713c2))
-    (pin "22" (uuid c7389b16-8122-4629-b1ab-152441ea9c99))
-    (pin "23" (uuid 342f2ca3-1fba-4e7c-87a8-fbe62935a588))
-    (pin "24" (uuid d89684bf-ead0-4e51-a50c-fafc99c45b18))
-    (pin "3" (uuid 5c681a1a-c704-4563-b68e-ad108f635b15))
-    (pin "4" (uuid c0862b7a-b903-4384-8547-1f3bd8c6ef6e))
-    (pin "5" (uuid 302cb1af-af49-446c-9994-1918e0e2c261))
-    (pin "6" (uuid 966e146a-76d9-4500-84ce-9b2bd6f11720))
-    (pin "7" (uuid 94b23033-68e3-4b45-b864-be1dae8119bc))
-    (pin "8" (uuid 081eab51-b840-4761-90d9-d6dbe7975ad0))
-    (pin "9" (uuid 049cde19-8a43-4b9f-9ef5-82f5b9e22309))
+    (pin "1" (uuid 6b7328c3-7301-4c64-9229-467d70477d23))
+    (pin "10" (uuid 1b92991e-deb6-4c6c-b8fe-c91cc2c73712))
+    (pin "11" (uuid ac377129-ae90-42d1-a4b3-db250f07c945))
+    (pin "12" (uuid e3468473-f1c7-444f-8ab1-e2cf8661a0d3))
+    (pin "13" (uuid bedd75c9-1245-4913-8b42-e580af3de160))
+    (pin "14" (uuid d8e939da-7b03-44ee-afa1-9d8091228622))
+    (pin "15" (uuid e652b9cc-7436-4235-91a6-db2eb4d47ee6))
+    (pin "16" (uuid 4b61f1ce-e759-4d9b-94c8-6e78c46d3c7e))
+    (pin "17" (uuid 2607b6c1-35e4-4b5d-ab61-422ca1d8c3f1))
+    (pin "18" (uuid 3401f595-61d2-46a8-90f8-b2a997d7b9cb))
+    (pin "19" (uuid 1cba519e-0a6b-4b79-94cd-03ac33592511))
+    (pin "2" (uuid ea54fd46-3705-4446-9e04-ccd46c1478fe))
+    (pin "20" (uuid f07e4218-706f-4691-8dff-511176b0187e))
+    (pin "21" (uuid ea3b86ef-6dc0-48a8-b836-6c76d9fad94b))
+    (pin "22" (uuid 9e75de4e-0803-4b30-9dc3-5d120b0ca32a))
+    (pin "23" (uuid e3eede85-1b19-4842-b8ed-d7dd3b5e7cae))
+    (pin "24" (uuid 7b767018-3656-487a-b2f2-7dbfbb996db1))
+    (pin "3" (uuid eb6281cc-6c8d-4be8-9351-5a8ee8492992))
+    (pin "4" (uuid 4b7d222d-2cbf-4e12-8564-2282c3b9e3ca))
+    (pin "5" (uuid 386231cc-a5d6-4ba1-8d1b-87e95e3a55bb))
+    (pin "6" (uuid 762cd8f1-f057-4363-90c8-4a16cf4f787a))
+    (pin "7" (uuid 5009d0ff-b554-414e-9060-158eb66d9dad))
+    (pin "8" (uuid 335eac4c-f07d-44e6-b898-742025ab2fd3))
+    (pin "9" (uuid ab44d8d5-af14-4aee-8fc8-3f2bbc230b94))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2946,7 +3170,7 @@
     (property "Datasheet" "" (at 342.9 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8ceb8cd2-971a-43c1-8f5b-726b8ab043b3))
+    (pin "1" (uuid 6c60926a-1b12-422c-902d-3fed0508e953))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -2977,8 +3201,8 @@
     (property "uuid" "std:142e468e0eff4c74b82a90663b738815" (at 306.07 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6917211-3793-48ec-bcb0-4691780693e7))
-    (pin "2" (uuid ad91e7d5-e780-4b87-b699-02199773979c))
+    (pin "1" (uuid 6c5061b6-c383-48e5-aa24-feb7a1ce1a1c))
+    (pin "2" (uuid cde2cc3d-4501-421c-be31-43d3167c3d5d))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3003,7 +3227,7 @@
     (property "Datasheet" "" (at 36.83 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf8ea1ac-38b8-46c7-806c-33f6668a7ee0))
+    (pin "1" (uuid dcf6f654-1901-4de0-8b12-744298e3c1d4))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3028,7 +3252,7 @@
     (property "Datasheet" "" (at 128.27 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b2c51e9-841b-4e56-beaa-d14931002cb3))
+    (pin "1" (uuid 39398583-3425-437e-918a-3ddaa467b7e4))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3053,10 +3277,10 @@
     (property "Datasheet" "" (at 39.37 118.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 21abd625-c6b4-4607-8959-12ed003a91d6))
-    (pin "2" (uuid 52b196c9-cc6d-4593-9131-eab4835576ce))
-    (pin "3" (uuid ce220313-00e1-4281-8ae1-1d6fdc10d3de))
-    (pin "4" (uuid ee3a45d2-262b-47ff-b3d3-640668567fad))
+    (pin "1" (uuid e2d789b1-d2f4-437c-9ef8-4847c74472b6))
+    (pin "2" (uuid cd7b6dfe-3a74-4182-a8cf-620bb862519b))
+    (pin "3" (uuid 92414f45-bd8e-4c06-8e40-8e5db9880906))
+    (pin "4" (uuid 721b1759-9aac-4e93-bdd3-0b57f992457e))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3081,10 +3305,10 @@
     (property "Datasheet" "" (at 115.57 118.11 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 6135ae69-b801-4ae3-9f15-13fa8f4ce35b))
-    (pin "2" (uuid 4802dd82-ebd9-45fd-918c-b01a0c551059))
-    (pin "3" (uuid 5000330a-083e-4d4f-b008-79013fb7a530))
-    (pin "4" (uuid d4540b31-d803-4af2-9ae9-418ba81e7317))
+    (pin "1" (uuid 4a3e1bf0-7921-4b83-bde1-b4e923fde402))
+    (pin "2" (uuid 1d964fad-e92b-4bf8-aff8-65a88575f9cd))
+    (pin "3" (uuid 29577c0f-5ac2-4e6e-a857-b5f209a4c02f))
+    (pin "4" (uuid 9ea536fe-1065-433c-9383-d02fa08ec8ab))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3109,7 +3333,7 @@
     (property "Datasheet" "" (at 360.68 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5647400f-1b6b-40b5-ac54-7670299c1069))
+    (pin "1" (uuid ea378d26-781a-4eb4-ad4b-60339b5a5d19))
     (instances
       (project "KeysOnRails_Carrier1"
         (path "/a6dae978-c8fe-4bbf-835b-e2bd64164dfb"
@@ -3154,18 +3378,18 @@
     (property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5" (at 365.125 171.3992 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 835b12b4-dc4b-460e-ae99-9249e8cc7280))
-    (pin "10" (uuid fcdec832-2078-4057-afa6-619f295c3946))
-    (pin "2" (uuid 45564270-5d2b-418a-8d13-1da23ba54384))
-    (pin "3" (uuid 3292aa8c-2292-487a-917c-75e4d3bf1613))
-    (pin "4" (uuid 73e91934-b776-4638-9b26-0fd27a5be257))
-    (pin "5" (uuid 19d426c7-fa02-4f45-a7d5-e371e4b7e40e))
-    (pin "6" (uuid 4a995573-2b53-4a3f-9a0c-ae27412758da))
-    (pin "7" (uuid b06eda3a-6351-490b-8980-647607c7a497))
-    (pin "8" (uuid 6738c9a0-5f18-41ce-abd1-6787c12e3ea7))
-    (pin "9" (uuid 46b66400-03db-43ca-a371-4d1c0a164f74))
-    (pin "S1" (uuid 9c4b4ba3-7409-4137-8910-0ae4b40a6146))
-    (pin "S2" (uuid 9cf53ba8-a440-4e8b-a10e-a9593d0a7533))
+    (pin "1" (uuid 53ad2ac4-2add-4c10-a208-b0fdae7b6028))
+    (pin "10" (uuid a5f10b96-9f55-40f2-9112-965d402b397a))
+    (pin "2" (uuid 6a3af396-4d2c-44c5-8c35-63b1a016fbf6))
+    (pin "3" (uuid 6b0deb00-a78c-4047-9f36-c35d7840c3eb))
+    (pin "4" (uuid 7b85e7d0-5962-47da-a8b6-2d15f34c419b))
+    (pin "5" (uuid a8d330e2-84cc-4af8-a792-39f75ba0fb9a))
+    (pin "6" (uuid 0df62879-50a4-4240-b88e-a7b62d3d9c07))
+    (pin "7" (uuid 6fdc92fd-d6c7-44dd-af11-4300ce7e0a8a))
+    (pin "8" (uuid e43c6dc6-789f-4e30-a006-9d5338a4707b))
+    (pin "9" (uuid bfac817e-e6ed-4390-b892-a8153c6b9b13))
+    (pin "S1" (uuid 375440a5-f5a8-4939-afac-fbffeab0850e))
+    (pin "S2" (uuid 9c35bf56-34f0-46a8-bf19-a7a76964ae98))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3190,7 +3414,7 @@
     (property "Datasheet" "" (at 381 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e39e73ae-50b7-4233-90e2-fa567ab060b1))
+    (pin "1" (uuid dbeb8b17-a0ff-46b4-953b-08f8e07da99b))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3215,7 +3439,7 @@
     (property "Datasheet" "" (at 166.37 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad470b59-6bf8-4f92-a41e-6e309a93839b))
+    (pin "1" (uuid 0da5e9a7-822a-44e0-bfb5-621bcd82e24c))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3240,7 +3464,7 @@
     (property "Datasheet" "" (at 113.03 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a846ffc-aaa9-4dc4-9bd6-9ec4292b4dc6))
+    (pin "1" (uuid 05a5a489-0e58-4348-a7a9-ac58a66bc8c9))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3265,7 +3489,7 @@
     (property "Datasheet" "" (at 297.18 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aadb0cf1-4caa-4db6-b5c1-b6adc412c798))
+    (pin "1" (uuid 9eb366dc-c2cb-4ab4-8131-829e5c816570))
     (instances
       (project "KeysOnRails_Carrier1"
         (path "/a6dae978-c8fe-4bbf-835b-e2bd64164dfb"
@@ -3295,7 +3519,7 @@
     (property "Datasheet" "" (at 346.71 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 50620bba-5ec6-4508-812e-d80272bd836b))
+    (pin "1" (uuid 1310a2be-50a6-4f92-bf99-7fac249bd9c0))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3320,7 +3544,7 @@
     (property "Datasheet" "" (at 189.23 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 215f7411-a011-4fb7-8677-a17c0aa28628))
+    (pin "1" (uuid 4791f1be-f716-4ea7-8a88-d017e0a8c96a))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3345,7 +3569,7 @@
     (property "Datasheet" "" (at 196.85 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6abbc5ce-db7b-490c-8102-5ac00a0667c7))
+    (pin "1" (uuid cd56cd7b-9faf-4b8b-9b0b-1ca6fc2e64ff))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3370,7 +3594,7 @@
     (property "Datasheet" "" (at 158.75 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91923dd3-5f6c-4016-903b-d02912af60ae))
+    (pin "1" (uuid 4fd466c1-46e7-43bf-aa42-a6e3e2f5f504))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3410,18 +3634,18 @@
     (property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5" (at 149.8092 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 87791026-71ff-4d95-8f51-16f73dab22af))
-    (pin "10" (uuid 41a995b8-24c5-4fc6-9578-6bea2f8d80fc))
-    (pin "2" (uuid 19e0c1df-f582-48f3-9f17-d41f15e02154))
-    (pin "3" (uuid 3af6e12d-284d-486e-b9dd-a1ff60adb361))
-    (pin "4" (uuid 3cf7eba2-b721-4837-9170-ceafa5b1c8ab))
-    (pin "5" (uuid e68068e0-1875-4020-bcd9-9fb66ff28116))
-    (pin "6" (uuid aea42107-989d-4ccf-b7df-f3feb14d077b))
-    (pin "7" (uuid 53333caa-b590-4e69-8f13-df41968d1928))
-    (pin "8" (uuid 5ba4c8d4-1a35-4d93-8abd-bf244914e074))
-    (pin "9" (uuid 5aa9a620-dbf1-4993-af3c-5c06d8b48ca1))
-    (pin "S1" (uuid c862cab7-ca0e-4eed-91df-d1d307600559))
-    (pin "S2" (uuid 04b1a94f-522d-4cf9-be6b-159135562a84))
+    (pin "1" (uuid a4719a0f-f01b-4759-a06f-0fbc3f141db1))
+    (pin "10" (uuid 70b3969e-488e-431d-bd11-3438a86bc3ea))
+    (pin "2" (uuid a2b0233a-fc7c-4837-bf74-8ac1db0059d7))
+    (pin "3" (uuid 27f13cf1-1305-43b1-b3c3-4f4363bffcb8))
+    (pin "4" (uuid 9246205f-c39f-4999-89ad-7944daf69333))
+    (pin "5" (uuid 70266e5a-2d16-4b4e-84e8-789b0c4e0427))
+    (pin "6" (uuid f6b07705-dbca-487e-ae47-da1c4517cdd2))
+    (pin "7" (uuid b4426591-de1c-4a90-8ccb-f177b40a53c9))
+    (pin "8" (uuid 5164c1e4-03b4-4fcf-964f-632778f7e0bc))
+    (pin "9" (uuid 95f3f8dd-abbd-42ea-84b1-b31065d6e7a6))
+    (pin "S1" (uuid 8e2d3efe-7d9c-494d-8e8c-893ba964de79))
+    (pin "S2" (uuid 9531eca0-962b-4401-8bbb-07fbc297808a))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3446,7 +3670,7 @@
     (property "Datasheet" "" (at 82.55 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5efe98dc-0520-4ed7-9e12-615a5e310831))
+    (pin "1" (uuid 8ab804e7-99dd-474d-b5a6-c55b5445b20d))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3471,10 +3695,10 @@
     (property "Datasheet" "" (at 289.56 138.43 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 67e6e58a-1c38-4251-837d-eac74b1e962a))
-    (pin "2" (uuid 69e826dc-bbbc-46c9-a4d1-db0a6ae7e8c3))
-    (pin "3" (uuid 3da8179e-847e-4c4b-8acf-0dd30ecedb81))
-    (pin "4" (uuid bcde1856-6c86-42ae-8ead-5ca4f80e4b36))
+    (pin "1" (uuid 3e314322-ef6d-462c-9594-e645551d03ac))
+    (pin "2" (uuid 5d095162-a381-4174-b698-a7cce289e90b))
+    (pin "3" (uuid 55a0b1c7-094d-436c-a7cc-dbd7f091b584))
+    (pin "4" (uuid 6e151fe2-ce8c-487f-a4c2-39b6e57f03a7))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3499,10 +3723,10 @@
     (property "Datasheet" "" (at 289.56 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "COM" (uuid 793f889e-a014-4cd5-ad9d-fcfe3ecd744b))
-    (pin "L1" (uuid d2de622d-8411-422c-aedf-1e71c060def5))
-    (pin "L2" (uuid 55122737-4041-48b2-a929-e5807aaff5b3))
-    (pin "GND" (uuid 2f6f3d9e-887b-47a0-b1a1-fbec5973b545))
+    (pin "COM" (uuid 59eae8bd-f344-4462-8059-a46192c8b671))
+    (pin "L1" (uuid c7b91e6d-f4f3-4780-b5df-0b3807daed05))
+    (pin "L2" (uuid 7129e42f-4602-4de3-939b-b47bff154c62))
+    (pin "GND" (uuid 1f0b858d-e2ce-4852-955a-70990de42f82))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3527,7 +3751,7 @@
     (property "Datasheet" "" (at 304.8 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dbbca3d9-148b-4b5b-85b3-3920b874d0d2))
+    (pin "1" (uuid 4695e8dc-5a8c-4607-b381-1d475165e499))
     (instances
       (project "KeysOnRails_Carrier1"
         (path "/a6dae978-c8fe-4bbf-835b-e2bd64164dfb"
@@ -3557,7 +3781,7 @@
     (property "Datasheet" "" (at 151.13 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3334a40e-f4fb-41bd-851c-b0d5291bee73))
+    (pin "1" (uuid 107fcf2b-3990-4582-9dca-177e540b8c90))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3582,7 +3806,7 @@
     (property "Datasheet" "" (at 90.17 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6406eff-488f-4ac5-b93d-c9b22d420475))
+    (pin "1" (uuid 1abdeffb-4f68-47a6-8459-86541905dbbb))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3607,7 +3831,7 @@
     (property "Datasheet" "" (at 334.01 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b47109a-247c-4bcb-a201-1a44def8c885))
+    (pin "1" (uuid 3fbb1a57-ad29-4185-b0cf-03f886b0f564))
     (instances
       (project "KeysOnRails_Carrier1"
         (path "/a6dae978-c8fe-4bbf-835b-e2bd64164dfb"
@@ -3637,11 +3861,11 @@
     (property "Datasheet" "~" (at 340.36 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94674501-5f91-4034-885a-f479c9681d45))
-    (pin "2" (uuid 2fd39c38-9144-461d-8c38-beb6e427640e))
-    (pin "3" (uuid a860db8d-ef57-4dc7-ad33-eea4f664fff3))
-    (pin "4" (uuid 9e935db5-ccad-44d2-8cba-5ae16c42c375))
-    (pin "5" (uuid c4729e56-8223-4ee1-94e3-5d22d40535af))
+    (pin "1" (uuid d25c6d21-dedf-48ad-b7d9-5464a94aa841))
+    (pin "2" (uuid 0d9cff8d-be25-43d0-a0ad-53f57f536027))
+    (pin "3" (uuid d55ca9b9-e5fb-482e-a218-d0fe6c2c1e54))
+    (pin "4" (uuid 67df13a5-09bb-4643-8702-2f9af80730c8))
+    (pin "5" (uuid a34ffb17-0193-4a85-88a6-78b60b9aea35))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3681,18 +3905,18 @@
     (property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5" (at 73.6092 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0be376bd-3fd0-4917-81f2-ce37ec550eaf))
-    (pin "10" (uuid 8b463f77-b7a4-4b16-a215-3493a58fc9b2))
-    (pin "2" (uuid e7875fa9-7626-4b88-924f-f89fa8a1df3b))
-    (pin "3" (uuid e9a0bb02-f3a9-4dec-8237-0e0dbdff9ac1))
-    (pin "4" (uuid a7764ab5-f20a-4c32-a499-fa03fdf0c378))
-    (pin "5" (uuid 094c5e72-6e0a-4e84-a6ec-9255efb3623f))
-    (pin "6" (uuid c929ef20-a00f-4b7d-a556-c8b386124a7d))
-    (pin "7" (uuid e3115776-5eed-4220-a944-758e328d269a))
-    (pin "8" (uuid b2524ffd-5e0d-4f5e-a9b6-333205062d9e))
-    (pin "9" (uuid a54c1acd-3112-4739-9a8f-3507b56e9113))
-    (pin "S1" (uuid c0300a5f-45a9-49f4-b4cc-fab3cef97a2a))
-    (pin "S2" (uuid 4e4bbcad-306f-4609-bafc-cc35fec162e1))
+    (pin "1" (uuid ce9381e7-5b98-4341-b376-c781dccea33f))
+    (pin "10" (uuid a3df51c7-a7c8-4474-85b1-cc63b862187f))
+    (pin "2" (uuid 82e30d6b-b63b-4bde-8ce5-0b03606d3069))
+    (pin "3" (uuid 3c77819e-3ab9-43e8-bc24-f8a23b28c2d2))
+    (pin "4" (uuid c16a9095-5680-4216-a8e1-d2cae9778041))
+    (pin "5" (uuid 1940ffe0-6881-45eb-87f8-d702c1c1d809))
+    (pin "6" (uuid ae730ff6-0184-4238-ba3c-10eadc73cdac))
+    (pin "7" (uuid f8b13126-9884-4765-b60a-ba4e33225bdb))
+    (pin "8" (uuid 800d5671-d8dc-42f1-a544-f7e610390c5b))
+    (pin "9" (uuid e9d6db81-3fc8-4e71-8901-e9e4e6793630))
+    (pin "S1" (uuid 23db069e-6ce5-43ab-8505-631a5531d849))
+    (pin "S2" (uuid 0d11fb6c-5117-4391-9771-a97cab8993d1))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
@@ -3717,7 +3941,7 @@
     (property "Datasheet" "" (at 120.65 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bcd0129c-f582-4ccd-8d17-995607424c38))
+    (pin "1" (uuid 9a0d8774-2029-4685-a47f-9f6f1ba0718f))
     (instances
       (project "Seismos_5CoreR"
         (path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
