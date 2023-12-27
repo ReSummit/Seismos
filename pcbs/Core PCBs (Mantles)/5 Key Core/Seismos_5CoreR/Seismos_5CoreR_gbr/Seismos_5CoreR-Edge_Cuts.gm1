@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.8*
-G04 #@! TF.CreationDate,2023-12-09T01:27:45-08:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.5*
+G04 #@! TF.CreationDate,2023-12-27T01:06:36-08:00*
 G04 #@! TF.ProjectId,Seismos_5CoreR,53656973-6d6f-4735-9f35-436f7265522e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.8) date 2023-12-09 01:27:45*
+G04 Created by KiCad (PCBNEW 7.0.5) date 2023-12-27 01:06:36*
 %MOMM*%
 %LPD*%
 G01*
