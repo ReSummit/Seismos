@@ -2,11 +2,11 @@
 
 An evolution of the Zebra keyboard, but can be used for everyday typing. Switch between ortholinear for macro keypads and staggered for typing on the go.
 
-Since this design utilizes daughter boards, you can even choose to move the columns around with a different rail system from the example one provided (stable case design coming soon).
+Since this design utilizes daughter boards, you can even choose to move the columns around with a different rail system from the example one provided.
 
 Allows for an interchangeable configuration between 4 and 5 row keys per column. With both halves of the keyboard, you can have a maximum of 68 keys (+2 encoder switches).
 
-**UPDATE** (2023_12_5): If you had downloaded gerber files before this date, ***redownload*** the files as the RGB lights were not wired correctly. Apparently KiCAD displays the back side from the top perspective... doh! This is fixed. I also fixed the power switch so that sliding it up turns on the keyboard rather than this not being congruent on both sides.
+**NOTE:** If you had downloaded gerber files before December 5th, 2023, ***redownload*** the files as the RGB lights were not wired correctly. Apparently KiCAD displays the back side from the top perspective... doh! This is fixed. I also fixed the power switch so that sliding it up turns on the keyboard rather than this not being congruent on both sides.
 
 ## Pictures / Example Column Shifts:
 <div style="display: flex; justify-content: center;">
@@ -36,16 +36,18 @@ git submodule update --init --recursive
 After this, you should not get errors on missing libraries.
 
 ## Current State of PCBs
-There are column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). This means you can get a max total of 68 keys, plus two if you are using the rotart encoder as buttons.
+There are column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). This means you can get a max total of 68 keys, plus two if you are using the rotary encoders as buttons.
 
 For this release, there are PCBs for 4 and 5 columns. Currently, the left, right, and columns are made with a maximum size of 7x5 keys per side. Something to know is that due to routing efficiency, the column order is reversed for the right side; however, row number remains the same from top to bottom.
+
+With release v1.1.2, the PCBs are now fully tested and ready to be used. Still, read through the notes for building this keyboard a couple sections below so you know what you're getting into.
 
 ## PCB Design Thoughts
 Theoretically, since JST SH connectors are pretty small, we can possibly a maximum of 12 pins, which means that you can get at most ~7 rows per column... if the microcontroller has that many pins!
 
 Some future design thoughts:
 * A suggestion to reduce pin count is to wire the 1x4 keys as a 2x2 key setup to save pins; however, this results in a 2x2n keyboard layout, which will likely be a pain... Still interesting though to point out.
-* ZMK has a pull request that is introducing charlieplexing, which will reduce the pin count. If this is done per half, it may be possible to have a 70% keyboard on both sides with 10 rows per column (5 forward diodes, 5 backwards diodes). There's quite a lot of room here but currently it is still in development.
+* ZMK has a pull request that introduced charlieplexing, which will reduce the pin count. If this is done per half, it may be possible to have a 70% keyboard on both sides with 10 rows per column (5 forward diodes, 5 backwards diodes). There's quite a lot of room here but currently it is still in development.
 
 # Important notes for building keyboard
 
@@ -57,6 +59,10 @@ Example of JST SH cable with male-to-male connectors facing the same side.
         <img src="pics/JST_SH9_Cable.jpg" style="width: 70%; margin-right: 10px;">
     </figure>
 </div>
+
+Soldering the JST SH connectors is not easy! It is recommended to use the stencil design that is provided along with the stencil jig, hot plate, and solder paste. Otherwise, use a soldering iron and rely on flux!
+
+After you are done building the core and mantle PCBs, there are example firmware files provided. Please checkout the `firmware_example` folder for more details. (Unfortunately, I haven't gotten to QMK yet, so that will have to wait for a bit)
 
 # BOM
 ## Required
@@ -76,16 +82,19 @@ Example of JST SH cable with male-to-male connectors facing the same side.
 
 ## Optional
 * 56-68 x SK6812MINI-E for RGB
-    * 6x per column from center of keyboard + 4 for thumb
+    * 6 x per column from center of keyboard + 4 for each thumb cluster
         * Example: left and right sides require 80 total for all columns. If you only need 5 columns, then you need 68.
-* 2 x nice!view (or OLED, but won't be aligned to nice!nano)
-* 4 x Low profile socket pin headers for socketed microcontrollers (or similar)
+* 2 x nice!view (or OLED, but won't be aligned to center of microcontroller)
+* 4 x 12 pin low profile socket pin headers for socketed microcontrollers (or similar)
 * 2 x Rotary encoder EC11 (similar to Sofle)
 * 2 x PJ320A headphone jacks 
-    * **NOTE**: Due to me wanting to allow for wireless or wired setups, **the current PCB design will not charge the other keyboard side**. This is because VCC is disconnected to avoid blowing up the charging circuit of the nice!nano. If you need it, you may need to modify the PCB and schematic to allow for this.
+    * **NOTE**: Due to me wanting to allow for wireless or wired setups, **the current PCB design will not charge the other keyboard side**. This is because VCC is disconnected to avoid blowing up the charging circuit of the nice!nano. If you need it, bridge the connector near one of the headphone jack pins.
+* (Temporary) 2 x 4.7k SMD resistors for I2C. This is only needed if you are going to change the layout to split and are going to use the LCD. This probably will change to through-hole resistors if i can find the space on the PCB to do so.
 
 # Case
 Curious to see what it looks like? Behold, OnShape link that contains questionable features that are unlabelled... This case works with the PCBs and allows for sliding rails, but won't lock the rails. A better design is in the works, but this is a good start.
+
+Currently, a better design is in the works to place the rails underneath the PCB instead of above; this would allow the keyboard to be more low profile. For now, this works.
 
 **This design requires the following additional parts:**
 * Countersunk M3 screws:

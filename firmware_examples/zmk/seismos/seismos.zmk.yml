@@ -1,0 +1,15 @@
+file_format: "1"
+id: seismos
+name: Seismos
+type: shield
+url: https://github.com/josefadamcik/SeismosKeyboard
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - encoder
+  - underglow
+siblings:
+  - seismos_left
+  - seismos_right
