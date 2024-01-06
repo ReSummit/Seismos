@@ -36,6 +36,9 @@ git submodule update --init --recursive
 After this, you should not get errors on missing libraries.
 
 ## Current State of PCBs
+
+***WARNING***: If you are planning to use a display on this keyboard, note that nice!view compatibility only applies for wireless builds only! Annoyingly, the nice!view does not use an ***I2C*** interface; it uses an ***SPI*** interface to work (***whyyyyyyy***). I considered moving the CS pin to the headphone jack, but this means that one of the hardware pins for I2C is not connected so this did not happen. Normal 4 pin I2C SSD1306 displays will work for wired or wireless builds however.
+
 There are column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). This means you can get a max total of 68 keys, plus two if you are using the rotary encoders as buttons.
 
 For this release, there are PCBs for 4 and 5 columns. Currently, the left, right, and columns are made with a maximum size of 7x5 keys per side. Something to know is that due to routing efficiency, the column order is reversed for the right side; however, row number remains the same from top to bottom.
