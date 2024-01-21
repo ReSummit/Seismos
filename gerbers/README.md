@@ -79,7 +79,7 @@ For PCBs, you will need the following:
 
 # BOM
 ## Required
-* (**If using shift register version**) 2x 74HC595A shift register, though you may want extras just in case
+* (**If using shift register version**) 2x 74HC595A SOIC-16 shift registers, though you may want extras just in case
 * 28 x 10 position JST SH individual wires and connectors (preferrably 10cm long). Aliexpress has these with different colors like cable mods.
     * NOTE: For these links, they come from the same seller. Contact the seller after placing a temporary order to reduce shipping costs before paying!
     * Wires: https://www.aliexpress.us/item/3256802676433370.html (choose colors, **10 cm**, and **double head**)
