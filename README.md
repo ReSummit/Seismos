@@ -36,8 +36,9 @@ git submodule update --init --recursive
 After this, you should not get errors on missing libraries.
 
 ## Current State of PCBs
+Since release v2.0.0, there are now PCBs that incorporate the 74HC595A shift register. Thanks to drFaustroll (from QMK Discord) on an example schematic for the shift register. With this shift register, displays are now on their own I2C / SPI bus and two pins are dedicated to split communications. 2 pins are now free so I have openned up these pins at the bottom of the keyboard on the front side. These ARE NOT compatible with the I2C variants of the keyboards unless you are not using the displays and will need some modification of the firmware, so choose carefully!
 
-***WARNING***: If you are planning to use a display on this keyboard, note that nice!view compatibility only applies for wireless builds only! Annoyingly, the nice!view does not use an ***I2C*** interface; it uses an ***SPI*** interface to work (***whyyyyyyy***). I considered moving the CS pin to the headphone jack, but this means that one of the hardware pins for I2C is not connected so this did not happen. Normal 4 pin I2C SSD1306 displays will work for wired or wireless builds however.
+***WARNING***: If you are planning to use a display on this keyboard, note that nice!view compatibility with the I2C PCBs only applies for wireless builds only! Annoyingly, the nice!view does not use an ***I2C*** interface; it uses an ***SPI*** interface to work (***whyyyyyyy***). I considered moving the CS pin to the headphone jack, but this means that one of the hardware pins for I2C is not connected so this did not happen. Normal 4 pin I2C SSD1306 displays will work for wired or wireless builds however assuming that all communications happen on I2C.
 
 There are column and thumb cluster layouts for 4 and 5 keys (however, thumb cluster can only have 4 max). This means you can get a max total of 68 keys, plus two if you are using the rotary encoders as buttons.
 
@@ -67,8 +68,18 @@ Soldering the JST SH connectors is not easy! It is recommended to use the stenci
 
 After you are done building the core and mantle PCBs, there are example firmware files provided. Please checkout the `firmware_example` folder for more details. (Unfortunately, I haven't gotten to QMK yet, so that will have to wait for a bit)
 
+# Required PCBs to upload
+
+For PCBs, you will need the following:
+* Minimum 2 core PCBs for left and right hands
+* At least 14 mantle PCBs, 7 per core PCB
+    * To save on cost, you may want to just stick with 20 of one type of mantle. 5 or 4 rows are usually enough
+
+### **NOTE:** For the Core PCBs, you wil need to choose if you want I2C only or with a shift register starting from release v2.0.0. If you want to minimize components needed **and you are sure that you have an ATMEGA microcontroller**, you should choose I2C only. If you are not sure, you should choose I2C with shift register and just get the 74HC595A.
+
 # BOM
 ## Required
+* (**If using shift register version**) 2x 74HC595A shift register, though you may want extras just in case
 * 28 x 10 position JST SH individual wires and connectors (preferrably 10cm long). Aliexpress has these with different colors like cable mods.
     * NOTE: For these links, they come from the same seller. Contact the seller after placing a temporary order to reduce shipping costs before paying!
     * Wires: https://www.aliexpress.us/item/3256802676433370.html (choose colors, **10 cm**, and **double head**)
@@ -92,7 +103,7 @@ After you are done building the core and mantle PCBs, there are example firmware
 * 2 x Rotary encoder EC11 (similar to Sofle)
 * 2 x PJ320A headphone jacks 
     * **NOTE**: Due to me wanting to allow for wireless or wired setups, **the current PCB design will not charge the other keyboard side**. This is because VCC is disconnected to avoid blowing up the charging circuit of the nice!nano. If you need it, bridge the connector near one of the headphone jack pins.
-* (Temporary) 2 x 4.7k SMD resistors for I2C. This is only needed if you are going to change the layout to split and are going to use the LCD. This probably will change to through-hole resistors if i can find the space on the PCB to do so.
+* 2 x 4.7k SMD resistors for I2C. This is only needed if you plan on using I2C for split communications. There's not enough space for THT versions so uh sorry :(.
 
 # Case
 Curious to see what it looks like? Behold, OnShape link that contains questionable features that are unlabelled... This case works with the PCBs and allows for sliding rails, but won't lock the rails. A better design is in the works, but this is a good start.

@@ -25,6 +25,9 @@ media_handler = MediaKeys()
 keyboard.modules.append(Layers())
 keyboard.extensions.append(MediaKeys())
  
+keyboard.debug_enabled = False
+keyboard.powersave_disable = True
+
 # Key aliases
 xxxxx = KC.NO
 _______ = KC.TRNS
@@ -42,10 +45,10 @@ VIMRE = simple_key_sequence((KC.COLN, KC.PERC, KC.S, KC.PIPE, KC.PIPE, KC.PIPE, 
 
 keyboard.keymap = [
     [
-        KC.ESC,     KC.N1,      KC.N2,      KC.N3,      KC.N4,  KC.N5,      KC.D,                       KC.A,              KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,      KC.BSPC,
-        KC.GRV,     KC.Q,       KC.W,       KC.E,       KC.R,   KC.T,       KC.F,                       KC.B,              KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,       KC.BSLS,
-        KC.TAB,     KC.A,       KC.S,       KC.D,       KC.F,   KC.G,       KC.D,                       KC.C,              KC.H,       KC.J,       KC.K,       KC.L,       KC.SCLN,    KC.QUOT,
-        KC.LSFT,    KC.Z,       KC.X,       KC.C,       KC.V,   KC.B,       KC.F,                       KC.D,              KC.N,       KC.M,       KC.COMM,    KC.DOT,     KC.SLSH,    KC.ENTER,
+        KC.ESC,     KC.N1,      KC.N2,      KC.N3,      KC.N4,  KC.N5,      KC.D,                       KC.K,              KC.N6,      KC.N7,      KC.N8,      KC.N9,      KC.N0,      KC.BSPC,
+        KC.GRV,     KC.Q,       KC.W,       KC.E,       KC.R,   KC.T,       KC.F,                       KC.J,              KC.Y,       KC.U,       KC.I,       KC.O,       KC.P,       KC.BSLS,
+        KC.TAB,     KC.A,       KC.S,       KC.D,       KC.F,   KC.G,       KC.D,                       KC.K,              KC.H,       KC.J,       KC.K,       KC.L,       KC.SCLN,    KC.QUOT,
+        KC.LSFT,    KC.Z,       KC.X,       KC.C,       KC.V,   KC.B,       KC.F,                       KC.J,              KC.N,       KC.M,       KC.COMM,    KC.DOT,     KC.SLSH,    KC.ENTER,
         KC.LCTL,    KC.LGUI,    KC.LALT,    KC.APP,     LOWER,  KC.SPC,     KC.AUDIO_MUTE,              KC.AUDIO_MUTE,     KC.SPC,     RAISE,      KC.LEFT,    KC.DOWN,    KC.UP,      KC.RGHT,
 
         # Encoders
@@ -83,16 +86,16 @@ keyboard.keymap = [
 ]
 
 rgb = RGB(
-            pixel_pin=board.GP0,
-            num_pixels=40,
-            val_default=10,
-            hue_step=5,
-            sat_step=5,
-            val_step=5,
-            animation_speed=5,
-            animation_mode=AnimationModes.SWIRL,
-            reverse_animation=False,
-            refresh_rate=60,
+    pixel_pin=board.GP0,
+    num_pixels=40,
+    val_default=10,
+    hue_step=5,
+    sat_step=5,
+    val_step=5,
+    animation_speed=5,
+    animation_mode=AnimationModes.SWIRL,
+    reverse_animation=False,
+    refresh_rate=60,
 )
 
 keyboard.extensions.append(rgb)
