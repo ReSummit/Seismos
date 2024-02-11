@@ -1429,7 +1429,7 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/74HC595/Nexperia/view-part/?ref=snap")
     (path "/5b910444-d42d-483a-8579-2dd7ca21ea73")
     (attr smd)
-    (fp_text reference "IC1" (at -6.36252 -0.63624 90) (layer "F.SilkS")
+    (fp_text reference "IC1" (at -6.36252 -0.63624 90) (layer "F.SilkS") hide
         (effects (font (size 1.001969 1.001969) (thickness 0.15)))
       (tstamp 3e1cc270-35b3-428e-a2f1-097db448babd)
     )

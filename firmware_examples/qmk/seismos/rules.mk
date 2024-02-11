@@ -1,0 +1,9 @@
+ENCODER_ENABLE = yes
+OLED_ENABLE = yes
+
+SPLIT_KEYBOARD = yes
+DEFAULT_FOLDER = seismos
+SWAP_HANDS_ENABLE = yes
+
+SRC += matrix.c
+CUSTOM_MATRIX = lite
