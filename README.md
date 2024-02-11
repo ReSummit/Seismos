@@ -167,3 +167,5 @@ For footprints, they are derived from multiple places:
 
 In the libs folder, there may be other files regarding other footprints such as the EVQPUC02K. This was found on EasyEDA on early attempts to extract the footprints.
 There is also the MSK-12C02 switch. This was found from [mzst's blog](https://mzstblog.blogspot.com/2016/01/msk-12c02-smd-slider-switch-spdt-eagle.html) website, which was a good reference for the switch, but I ended up using the symbol and combined with the other footprint found from EasyEDA. Archived here as well bvecause it is nice to have a backup of it.
+
+For firmware, there are QMK, ZMK, and KMK. Only QMK has support for shift registers at the moment but I will get to the other firmwares at some point. QMK's firmware is somewhat based from the Sofle code already on the qmk_firmware, especially the oled implementation, which is untested. Also, the LICENSE may need to be updated; will check this later.
