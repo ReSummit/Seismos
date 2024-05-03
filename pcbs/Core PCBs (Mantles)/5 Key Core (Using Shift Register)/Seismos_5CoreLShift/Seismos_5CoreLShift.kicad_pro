@@ -553,7 +553,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Seismos_5CoreLShift_gbr/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../3dmodels/pcb/Seismos_5CoreL.step",
