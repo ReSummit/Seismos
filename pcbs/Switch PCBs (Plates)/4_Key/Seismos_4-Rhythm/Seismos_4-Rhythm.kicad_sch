@@ -1,0 +1,5167 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c801d42e-dd94-493e-bd2f-6c3ddad43f55")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Diode:1N4148W"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Seismos-sym:SM10B-SRSS-TB_(LF)(SN)"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at -9.4742 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM10B-SRSS-TB_(LF)(SN)"
+				(at 1.27 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Seismos-libs:CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN"
+				(at 0.635 -6.2992 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.szlcsc.com/product/details_171789.html"
+				(at 0.635 -1.2192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SuppliersPartNumber" "C160409"
+				(at 5.7658 3.81 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5"
+				(at 0.635 3.8608 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM10B-SRSS-TB_(LF)(SN)_1_1"
+				(rectangle
+					(start -3.81 17.78)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Shield"
+					(at 3.81 -12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 15.24 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -7.62 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 12.7 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 10.16 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 7.62 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 5.08 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -12.7 0)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -12.7 0)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Seismos-sym:Switch_SK6812-E_Diode"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Switch_SK6812-E_Diode"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Switch_SK6812-E_Diode_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy -7.46 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CHOC1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CHOC2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MX1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MX2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Switch_SK6812-E_Diode_2_1"
+				(polyline
+					(pts
+						(xy -7.62 -6.35) (xy 7.62 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -6.35) (xy 7.62 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 6.35) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -15.24 1.27 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+					(number "+1"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 1.27 180)
+					(length 7.62)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+					(number "DI1"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -15.24 -1.27 0)
+					(length 7.62)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+					(number "DO1"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -1.27 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.4986 1.4986)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 251.46 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bcab8b1-6431-4c33-a675-b5b962f0c80a")
+	)
+	(junction
+		(at 152.4 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35352a51-d85b-4e4f-af58-ca027e449ea1")
+	)
+	(junction
+		(at 198.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3ce938-481b-4331-924a-53be76914ffd")
+	)
+	(junction
+		(at 152.4 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53f2b73f-2419-4bd2-ae59-91f67f3c4a54")
+	)
+	(junction
+		(at 88.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56b4f7a5-8588-46b9-bf6b-7e43be349f5a")
+	)
+	(junction
+		(at 360.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59c1135e-a6c4-4dda-9e1c-d6843292b97f")
+	)
+	(junction
+		(at 251.46 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63ca6266-5006-468a-86ad-d33b3708ba22")
+	)
+	(junction
+		(at 314.96 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b30b095-c4f7-4ed1-a468-a25247c7decc")
+	)
+	(junction
+		(at 360.68 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e877d26-f949-41d4-93ff-8c019ebdb5ff")
+	)
+	(junction
+		(at 198.12 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93541101-17a8-4907-a429-1a6279dcb9d6")
+	)
+	(junction
+		(at 152.4 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98852912-506b-42b6-a928-5e841caed619")
+	)
+	(junction
+		(at 314.96 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3139d86-12db-474e-9ed2-3e985d1e19e4")
+	)
+	(junction
+		(at 88.9 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf47eafd-c3b2-4602-851c-deafa1cfea10")
+	)
+	(junction
+		(at 198.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35ca114-c0f3-421a-b78a-2384a9591acb")
+	)
+	(junction
+		(at 314.96 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d83fce99-971e-4f8d-93da-31ce069049d5")
+	)
+	(junction
+		(at 360.68 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dce32892-4514-4dbf-aff5-5ef608c5b172")
+	)
+	(junction
+		(at 88.9 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f776470c-45d4-49ae-bd09-6a9946de88e3")
+	)
+	(junction
+		(at 251.46 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde636d9-96d2-473f-a5ec-9a6cb004c5e6")
+	)
+	(no_connect
+		(at 264.16 138.43)
+		(uuid "3938eec2-aa04-4058-b922-ed255d6b878c")
+	)
+	(no_connect
+		(at 100.33 139.7)
+		(uuid "ae6885d9-2790-4248-a032-17306d68dc5a")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 251.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030947ea-6db5-4947-afa0-e5acfc7eb457")
+	)
+	(wire
+		(pts
+			(xy 191.77 109.22) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060da48e-2fab-4035-bf9e-c536f413c51b")
+	)
+	(wire
+		(pts
+			(xy 354.33 68.58) (xy 360.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085052b7-d022-4dd7-a8d4-fc9c35005734")
+	)
+	(wire
+		(pts
+			(xy 269.24 143.51) (xy 274.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a9a752-e5c8-4140-87d2-b4e899ea5b7a")
+	)
+	(wire
+		(pts
+			(xy 125.73 40.64) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aeb8d08-f521-4f45-bde4-04177a9b2be4")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 105.41 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6779c5-8172-4e74-b3e5-988e07c6b7c0")
+	)
+	(wire
+		(pts
+			(xy 97.79 127) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10346ade-98dd-45fb-9be7-5e3bf8f3dd15")
+	)
+	(wire
+		(pts
+			(xy 264.16 123.19) (xy 274.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a3ef20-906e-4865-ba32-271bbe60da42")
+	)
+	(wire
+		(pts
+			(xy 100.33 134.62) (xy 110.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a11dc0e-b474-4cf3-9a75-c19d79f735cd")
+	)
+	(wire
+		(pts
+			(xy 88.9 101.6) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a190627-03ae-462b-8912-f61a7b4114a0")
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64) (xy 251.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af773dd-2e73-4c28-a2da-4ded91072ea8")
+	)
+	(wire
+		(pts
+			(xy 354.33 88.9) (xy 360.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fff067f-3f73-4bcd-8946-6c383596d0b2")
+	)
+	(wire
+		(pts
+			(xy 251.46 101.6) (xy 256.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216f526f-6b4e-4e9f-84ac-77414d2e53a8")
+	)
+	(wire
+		(pts
+			(xy 323.85 77.47) (xy 354.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21fd15ec-1bf3-4124-994c-2089dc05b16d")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 198.12 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "269357f3-c9d4-4858-a027-8def4bc7cde5")
+	)
+	(wire
+		(pts
+			(xy 196.85 45.72) (xy 191.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273fb759-147a-4f1e-8ccb-fa9ad3b8f409")
+	)
+	(wire
+		(pts
+			(xy 196.85 30.48) (xy 196.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28856621-3a89-4c90-a73a-b13e59dfe5a6")
+	)
+	(wire
+		(pts
+			(xy 323.85 109.22) (xy 323.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c470b97-816f-4c08-b6e6-67bcbe2f4175")
+	)
+	(wire
+		(pts
+			(xy 161.29 77.47) (xy 191.77 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2feb21b3-85ec-424b-af63-d7b7e58378b0")
+	)
+	(wire
+		(pts
+			(xy 288.29 101.6) (xy 298.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3229b79d-b05c-4f48-a4cc-06c86b5feeef")
+	)
+	(wire
+		(pts
+			(xy 354.33 48.26) (xy 360.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32312606-2e52-4cf6-b089-e21ca04001c6")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33872170-1318-49d3-a9cf-aabd45781f4f")
+	)
+	(wire
+		(pts
+			(xy 114.3 60.96) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34876ac9-601b-441a-8d09-d3bad068f5fa")
+	)
+	(wire
+		(pts
+			(xy 125.73 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c4488d-6a86-4292-b7a5-847359a5be37")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f52daef-bf7c-46b9-abca-d98db25de3ec")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 118.11 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe1e19e-7c19-46ee-8b48-62c18ece547b")
+	)
+	(wire
+		(pts
+			(xy 314.96 45.72) (xy 314.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434d5ac4-d069-4619-911e-56928ab4a53e")
+	)
+	(wire
+		(pts
+			(xy 251.46 81.28) (xy 256.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5107f7e1-0a08-412d-afac-3a7d48f569e4")
+	)
+	(wire
+		(pts
+			(xy 323.85 88.9) (xy 323.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5308fe24-55f8-47d0-8d12-9cd44cd71b49")
+	)
+	(wire
+		(pts
+			(xy 264.16 115.57) (xy 274.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a198ab2-1fcf-4929-bd3e-2c331bb16b9a")
+	)
+	(wire
+		(pts
+			(xy 314.96 86.36) (xy 314.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c333d2c-ee8e-4aac-9601-78dd26cd8177")
+	)
+	(wire
+		(pts
+			(xy 100.33 129.54) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4a4828-a11f-4528-8944-4706b96d3bbd")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.15) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7a3724-197f-4f3c-83fe-0baac84a31c5")
+	)
+	(wire
+		(pts
+			(xy 251.46 30.48) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec0e82e-b23c-47db-aec9-6a57e8a6b9d4")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4a1dbf-95cd-442e-8163-9e732d17b022")
+	)
+	(wire
+		(pts
+			(xy 100.33 124.46) (xy 110.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6360d771-52b8-4049-98fc-12774286c8aa")
+	)
+	(wire
+		(pts
+			(xy 314.96 45.72) (xy 323.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d69233-a134-4063-967e-8ad6aeca8838")
+	)
+	(wire
+		(pts
+			(xy 323.85 68.58) (xy 323.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64442a30-a78a-4d7f-b4f7-0f7ff6f851a4")
+	)
+	(wire
+		(pts
+			(xy 288.29 40.64) (xy 298.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64bf5370-e68a-415d-b8ae-d2b88a8cb83a")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f9394b-0db5-4a4e-ba40-ffbeef3edab4")
+	)
+	(wire
+		(pts
+			(xy 314.96 86.36) (xy 323.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdd463e-1944-47b9-8687-7945091d3232")
+	)
+	(wire
+		(pts
+			(xy 314.96 66.04) (xy 323.85 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c375d0e-7b61-489a-a7ba-98bf48d864eb")
+	)
+	(wire
+		(pts
+			(xy 264.16 130.81) (xy 274.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ce843a-389c-4884-ba7b-eedd2baa184e")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759e639d-6f15-4cef-94e0-dfc672aad55c")
+	)
+	(wire
+		(pts
+			(xy 276.86 81.28) (xy 280.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814035ea-1a83-4476-8cb6-ffd62d8920ad")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826cb26a-cbdf-4a63-ba2d-e1e9204b8792")
+	)
+	(wire
+		(pts
+			(xy 269.24 143.51) (xy 269.24 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835cd4d9-cf23-4252-958a-9cf22b45bbfc")
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 161.29 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839d1428-cb4a-4e16-b8f9-b9fde5948259")
+	)
+	(wire
+		(pts
+			(xy 359.41 30.48) (xy 359.41 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83eeaa39-c713-4731-810b-75c02a1b5b89")
+	)
+	(wire
+		(pts
+			(xy 100.33 137.16) (xy 110.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bd5fa8-0b4a-4958-bc6b-95ff8517f384")
+	)
+	(wire
+		(pts
+			(xy 125.73 60.96) (xy 135.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8617be89-2083-47d7-be08-b23062f12760")
+	)
+	(wire
+		(pts
+			(xy 264.16 138.43) (xy 274.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867943e5-6ff0-4ad3-aa61-4166b8f2bcfc")
+	)
+	(wire
+		(pts
+			(xy 251.46 40.64) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8721b467-b88e-4857-a1bd-0aa0d287edbc")
+	)
+	(wire
+		(pts
+			(xy 360.68 68.58) (xy 360.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a73cb7d-bbe0-4ad0-b9ba-77f3d47da59a")
+	)
+	(wire
+		(pts
+			(xy 264.16 120.65) (xy 274.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa0d7fc-61c3-4e60-8418-25a54789af7c")
+	)
+	(wire
+		(pts
+			(xy 354.33 57.15) (xy 354.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5ac299-d78c-46ed-a21a-3e3b8f975baa")
+	)
+	(wire
+		(pts
+			(xy 288.29 60.96) (xy 298.45 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa646e3-6016-4dc3-bde2-ebc72ea1c05e")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fce6cae-8cee-440d-b5f5-1c649f44222e")
+	)
+	(wire
+		(pts
+			(xy 161.29 97.79) (xy 191.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906f2e76-02f7-4516-8d91-28350a4c7b8a")
+	)
+	(wire
+		(pts
+			(xy 360.68 88.9) (xy 360.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94664350-3201-49f1-a90e-5993c5fb5be6")
+	)
+	(wire
+		(pts
+			(xy 251.46 81.28) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977e6774-4bdb-485c-aa6c-69ffb89daab2")
+	)
+	(wire
+		(pts
+			(xy 314.96 106.68) (xy 323.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9834e826-1ddf-49f8-9b6e-ea8d53ab63aa")
+	)
+	(wire
+		(pts
+			(xy 191.77 77.47) (xy 191.77 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea1ee77-ef24-4377-a457-54f65b8e4b7e")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0070dc4-44e5-4df1-8077-6650bd171235")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 161.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e37a1f-7bca-4a55-ab76-89096ead9f68")
+	)
+	(wire
+		(pts
+			(xy 359.41 45.72) (xy 354.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14e947f-7623-4c6c-aef2-05c71a5466b3")
+	)
+	(wire
+		(pts
+			(xy 264.16 128.27) (xy 274.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fd1afc-c0d9-4aad-9c4c-6e843c21a3cc")
+	)
+	(wire
+		(pts
+			(xy 100.33 139.7) (xy 110.49 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa11f2e8-1497-46b6-b3ef-b08dd2fdd5d2")
+	)
+	(wire
+		(pts
+			(xy 100.33 132.08) (xy 110.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc815e2-04b2-435b-8990-03fe59871b2f")
+	)
+	(wire
+		(pts
+			(xy 251.46 60.96) (xy 256.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8394b3-3272-4fc3-acd1-8688e52a53a2")
+	)
+	(wire
+		(pts
+			(xy 100.33 119.38) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dfafab-f8bf-4673-a5ae-6571300d38cb")
+	)
+	(wire
+		(pts
+			(xy 191.77 57.15) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25e40d9-9ed0-4a90-bbfe-af9c3e8df339")
+	)
+	(wire
+		(pts
+			(xy 152.4 30.48) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38e8f0c-5179-493a-aa29-6465986e4069")
+	)
+	(wire
+		(pts
+			(xy 323.85 57.15) (xy 354.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e077f1-d298-444d-b843-c2691d3d2210")
+	)
+	(wire
+		(pts
+			(xy 276.86 40.64) (xy 280.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b779c990-0c39-4b7c-8eb1-bb114fca2ba7")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5f1375-7c51-4517-ad80-13069a12ab42")
+	)
+	(wire
+		(pts
+			(xy 198.12 109.22) (xy 198.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befe0136-6970-4a56-b70e-74ef5c4305da")
+	)
+	(wire
+		(pts
+			(xy 360.68 48.26) (xy 360.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28d0044-58d1-44eb-b61d-deea37150d78")
+	)
+	(wire
+		(pts
+			(xy 161.29 48.26) (xy 161.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83b64ce-b32c-46c7-9a19-05707e427f4b")
+	)
+	(wire
+		(pts
+			(xy 354.33 109.22) (xy 360.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3927ce-df05-41a1-894f-eaf397364286")
+	)
+	(wire
+		(pts
+			(xy 360.68 109.22) (xy 360.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd4e2bc-5bfd-4a3a-ae45-b6a4d1de0119")
+	)
+	(wire
+		(pts
+			(xy 198.12 48.26) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7830b6-5af3-475a-8f9d-5c712b7dbff1")
+	)
+	(wire
+		(pts
+			(xy 314.96 30.48) (xy 314.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc7dc7a-f1d4-46bf-a4f8-3ab0b12c30e4")
+	)
+	(wire
+		(pts
+			(xy 314.96 66.04) (xy 314.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dcaf72-c926-4fe7-b1a4-2de59176c18e")
+	)
+	(wire
+		(pts
+			(xy 100.33 121.92) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b1d192-a102-43a8-80d7-16ca2400f0b5")
+	)
+	(wire
+		(pts
+			(xy 261.62 125.73) (xy 274.32 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4edc2cd-eeb0-4540-b47d-06c14086159a")
+	)
+	(wire
+		(pts
+			(xy 191.77 97.79) (xy 191.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c1671b-b5cc-404e-a920-a7ae86f17366")
+	)
+	(wire
+		(pts
+			(xy 264.16 118.11) (xy 274.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d699321e-d739-4324-a818-c5aaa29bc2e2")
+	)
+	(wire
+		(pts
+			(xy 152.4 45.72) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bc0593-25fa-4647-a05e-d12718929e89")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4f7a23-c7a1-4c07-a09f-48faec64de28")
+	)
+	(wire
+		(pts
+			(xy 191.77 68.58) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb74db7-daca-4bc7-85bd-6eb7cbc686fd")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df67e9a2-be91-48f8-9088-7c6c39599296")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 110.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b53eb9-b270-47e5-aae9-20564c5fc920")
+	)
+	(wire
+		(pts
+			(xy 264.16 133.35) (xy 274.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b4a0c5-0759-496f-a0c6-a2a08141a0bf")
+	)
+	(wire
+		(pts
+			(xy 354.33 77.47) (xy 354.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2db8165-b122-4403-a812-2553cca2bdc8")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fe1b55-5a38-4ded-a0b8-2b792ee6863b")
+	)
+	(wire
+		(pts
+			(xy 100.33 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34e633f-2859-4e2e-a9c4-96d22d2f11c1")
+	)
+	(wire
+		(pts
+			(xy 288.29 81.28) (xy 298.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48ad890-a80d-45d5-972c-f9fbd02956b4")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 118.11 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d306aa-8c96-49d5-abea-96661fc042e9")
+	)
+	(wire
+		(pts
+			(xy 276.86 60.96) (xy 280.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9fa676-4c17-4368-a64e-14258712b11a")
+	)
+	(wire
+		(pts
+			(xy 88.9 30.48) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec20b26f-351f-4818-806c-ced9af92ca9c")
+	)
+	(wire
+		(pts
+			(xy 191.77 48.26) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f008d160-6588-4d94-aded-a3cd631dd160")
+	)
+	(wire
+		(pts
+			(xy 354.33 97.79) (xy 354.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f277ef23-39e5-4a3d-80b3-9a49b0569202")
+	)
+	(wire
+		(pts
+			(xy 323.85 97.79) (xy 354.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b35493-2b07-4a1b-8029-334600598ffa")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 161.29 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5366f2d-70bf-4d47-af60-ef03f8ae1764")
+	)
+	(wire
+		(pts
+			(xy 161.29 109.22) (xy 161.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f639fc92-be69-4295-abdb-79bbb548d26a")
+	)
+	(wire
+		(pts
+			(xy 198.12 68.58) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7f2e847-302f-4971-9946-d6d50f3224ab")
+	)
+	(wire
+		(pts
+			(xy 264.16 135.89) (xy 274.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fd63cc-0e67-4fe0-a210-45056f58758c")
+	)
+	(wire
+		(pts
+			(xy 191.77 88.9) (xy 198.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3f8b91-c3bb-4936-96e1-1f7babb46395")
+	)
+	(wire
+		(pts
+			(xy 323.85 48.26) (xy 323.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed02e33-c484-4c54-86c9-530451cba19d")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 161.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feebcb09-721d-42f8-9396-050245fb172f")
+	)
+	(wire
+		(pts
+			(xy 276.86 101.6) (xy 280.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6b17bb-8bb9-41e1-9a17-d9707adfe3a5")
+	)
+	(label "Row21"
+		(at 298.45 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0186bda4-ab54-459f-bc7f-d7d69b32080d")
+	)
+	(label "Row21"
+		(at 264.16 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bf93071-089a-443c-b846-70d179c4b0df")
+	)
+	(label "Row31"
+		(at 298.45 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ca56e5d-67c4-4a79-8ee3-ce910ed94691")
+	)
+	(label "Row4"
+		(at 100.33 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18e4a3c7-478f-4ca3-9ae2-fa710f271f22")
+	)
+	(label "Row1"
+		(at 135.89 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1914e1c4-4636-4c54-9e31-f6626d27156c")
+	)
+	(label "V+1"
+		(at 264.16 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22c84c4f-3d47-4f7f-aed1-8d34bc3eed3d")
+	)
+	(label "RGB_Out"
+		(at 100.33 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2410be3f-0baa-45e3-b228-b8933e482c39")
+	)
+	(label "Row11"
+		(at 264.16 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cc0eb36-9318-42f2-a361-adafcc918f7c")
+	)
+	(label "V+"
+		(at 152.4 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "419c4c37-92c8-4af9-b12a-826d0fa0f890")
+	)
+	(label "Row3"
+		(at 135.89 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47cbd933-486d-4246-ab47-277de26980c1")
+	)
+	(label "Row2"
+		(at 100.33 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d92b432-e6e1-4be6-8da8-4646035c3740")
+	)
+	(label "RGB_In1"
+		(at 359.41 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "541a1efe-acbd-4b55-a1a8-b9a0a4260189")
+	)
+	(label "RGB_In"
+		(at 100.33 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f49d812-e19d-40f4-8856-97a2987a0823")
+	)
+	(label "Row41"
+		(at 298.45 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "633c275e-f498-4623-8f8e-c54a5235508b")
+	)
+	(label "Row1"
+		(at 100.33 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e0429e0-eee7-4977-86fd-25e224b09c82")
+	)
+	(label "V+1"
+		(at 314.96 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "727d28b2-6b1f-4e25-820b-d4145ddb3eec")
+	)
+	(label "Col_In1"
+		(at 264.16 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "803d71aa-f285-419e-95dc-96deddaf075e")
+	)
+	(label "RGB_Out1"
+		(at 264.16 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "892915d4-c775-43b7-b3aa-fbce115c9459")
+	)
+	(label "Row31"
+		(at 264.16 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cc87f68-cfce-4f51-9a1c-56736ba7690d")
+	)
+	(label "RGB_Out"
+		(at 161.29 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ebdb98b-7247-4c4e-87a5-2e76f74101a2")
+	)
+	(label "RGB_In"
+		(at 196.85 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "926deba8-575b-49c9-9125-b48577c62de2")
+	)
+	(label "Row2"
+		(at 135.89 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "945844d6-7c09-4314-a874-e14e1f7cb94c")
+	)
+	(label "Row41"
+		(at 264.16 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9921ca1b-9cee-47da-ac46-15b3a5f6ecd0")
+	)
+	(label "V+"
+		(at 100.33 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d62274f-a812-49ab-8bec-52f0b21d779c")
+	)
+	(label "Row4"
+		(at 135.89 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7b7e8b9-a225-4192-a344-e2b29954e768")
+	)
+	(label "Col_In"
+		(at 100.33 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9710971-d5d9-455f-ae09-d6b0eb700418")
+	)
+	(label "RGB_In1"
+		(at 264.16 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0aeb498-f2d3-483a-9ae6-93be52f3650b")
+	)
+	(label "RGB_Out1"
+		(at 323.85 128.27 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9dd9fc2-1de8-4306-8932-797d096a6997")
+	)
+	(label "Col_In"
+		(at 88.9 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9d5ad35-9738-4791-a417-a273eccff5be")
+	)
+	(label "Col_In1"
+		(at 251.46 30.48 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca78711d-c382-48ba-88fc-b02ca251a2c3")
+	)
+	(label "Row3"
+		(at 100.33 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4592c5e-9e06-4783-82c9-b3b00187d32a")
+	)
+	(label "Row11"
+		(at 298.45 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1ded9dc-cbd4-4a24-aca3-b629fc36af14")
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 284.48 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "017f4057-881b-4e7b-95f0-f3c8b43bbb05")
+		(property "Reference" "D5"
+			(at 284.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 284.48 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 284.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e38773ca-acfb-44cd-932e-b5a8b920f385")
+		)
+		(pin "2"
+			(uuid "cf90b998-a77c-4033-a545-4140ccd2d4d3")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:SM10B-SRSS-TB_(LF)(SN)")
+		(at 280.67 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "108863ac-056f-490d-b496-3a767b5307eb")
+		(property "Reference" "J2"
+			(at 289.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM10B-SRSS-TB(LF)(SN)"
+			(at 289.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Seismos-libs:CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN"
+			(at 281.305 137.1092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_171789.html"
+			(at 281.305 132.0292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 280.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Manufacturer_name"
+			(at 280.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 280.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SuppliersPartNumber" "C160409"
+			(at 286.4358 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5"
+			(at 281.305 126.9492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f35e92ed-5398-442d-b88a-cdb6a2bc16b3")
+		)
+		(pin "10"
+			(uuid "fc9af292-7b9e-47d8-86b0-4e3401140bb3")
+		)
+		(pin "2"
+			(uuid "b741fb81-5962-4f4f-abe2-672b22349d95")
+		)
+		(pin "3"
+			(uuid "bc147c4d-5535-4cc3-b7c0-407b07aefd08")
+		)
+		(pin "4"
+			(uuid "9001ca06-3426-4e4a-8633-b7f7926fed12")
+		)
+		(pin "5"
+			(uuid "46328797-64b9-4bc9-a4d7-bf4add435619")
+		)
+		(pin "6"
+			(uuid "61ecb9fb-0a66-4869-83a0-7d1bbb8f30a7")
+		)
+		(pin "7"
+			(uuid "0c4d04aa-c28b-4e0a-9c5c-3c4f7119e036")
+		)
+		(pin "8"
+			(uuid "5c600f94-759c-4182-832e-30175b9cf51d")
+		)
+		(pin "9"
+			(uuid "79b8657c-dd05-4146-8b05-c492002720d6")
+		)
+		(pin "S1"
+			(uuid "eb9af7c4-93c6-47ba-b483-818220d4c9e9")
+		)
+		(pin "S2"
+			(uuid "b1b3d429-2950-4993-8d69-547212132be5")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 284.48 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "130d240b-b5a4-48e5-b5b8-464e9c17609a")
+		(property "Reference" "D8"
+			(at 284.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 284.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 284.48 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 284.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12e09bf5-9d48-4498-b6d7-9fbe784e21b9")
+		)
+		(pin "2"
+			(uuid "1e938ae2-a1ac-4cbf-968e-657dc65a4e1d")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 121.92 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a9da6b6-d0d6-44a0-bc2a-efd70d2b8d71")
+		(property "Reference" "D2"
+			(at 121.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 121.92 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 121.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d021e6b1-57f5-4a32-ac62-48425a2cbbf7")
+		)
+		(pin "2"
+			(uuid "5b628aa3-745e-4284-af96-7f5980e06a36")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 121.92 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb20300-ee17-4a9e-8dd1-d1bcae446464")
+		(property "Reference" "D3"
+			(at 121.92 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 121.92 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c2f4fa8-f896-4d3a-a29e-637be06ccaf3")
+		)
+		(pin "2"
+			(uuid "597d14f4-b731-443b-9577-47cf4d32e3df")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 266.7 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f8a0c93-1ea5-4671-b133-336320c90537")
+		(property "Reference" "SW7"
+			(at 266.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 266.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "0346ef28-0557-42a1-aebf-01aa83d644a3")
+		)
+		(pin "CHOC2"
+			(uuid "54240547-4ad5-47a1-bb18-158dc4a849db")
+		)
+		(pin "MX1"
+			(uuid "9c0a5ac8-dd68-45d9-bf1d-b27ac6205805")
+		)
+		(pin "MX2"
+			(uuid "5b5b9c3a-780d-42ce-b0ca-2e982cdeab92")
+		)
+		(pin "+1"
+			(uuid "966965b1-a32a-46dc-b0b4-436cd85d54d1")
+		)
+		(pin "DI1"
+			(uuid "eb4738b0-d989-46dc-9b21-a185ce82da6d")
+		)
+		(pin "DO1"
+			(uuid "55d28cf2-7248-47ae-a7a9-c42e8a73e44a")
+		)
+		(pin "GND"
+			(uuid "da2f8975-eba1-4575-b50f-6734737e6cc1")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 176.53 46.99 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "213e89b5-88b3-40d2-8968-686da6967de9")
+		(property "Reference" "SW1"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "48fd96ea-79cc-4bce-9fbb-7e847b67e98d")
+		)
+		(pin "CHOC2"
+			(uuid "7055fc8b-3356-42b1-bb69-dc5da740a753")
+		)
+		(pin "MX1"
+			(uuid "047b4ce0-4cce-40fe-9afb-28d2b6cf1d81")
+		)
+		(pin "MX2"
+			(uuid "dfd7b3ce-7f44-4e3e-92b1-411dc97a176b")
+		)
+		(pin "+1"
+			(uuid "a80d551d-f35f-483f-9632-ee8acef45d25")
+		)
+		(pin "DI1"
+			(uuid "703e9ab7-f3a6-4ffa-b34e-5fe2d7851095")
+		)
+		(pin "DO1"
+			(uuid "09c691a5-9d6f-46c7-9c3c-f365b2da4baa")
+		)
+		(pin "GND"
+			(uuid "2b31f930-da3d-4e65-a088-64cbf6d4427e")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 266.7 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25bab0a1-4e1d-46e5-884e-6a6c09f5430b")
+		(property "Reference" "SW6"
+			(at 266.7 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 266.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 266.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "5ae09a18-c475-43dc-b6de-e70b1f552805")
+		)
+		(pin "CHOC2"
+			(uuid "9eabacf9-f9f0-4ba9-8e67-7f618e7b0ffc")
+		)
+		(pin "MX1"
+			(uuid "e0b3103c-883f-4111-899d-88d5360e2ebe")
+		)
+		(pin "MX2"
+			(uuid "1e507418-60ce-4593-b7a4-535ee2028bf7")
+		)
+		(pin "+1"
+			(uuid "5ae52f3b-aec8-4e7b-a1d6-b908a34dd566")
+		)
+		(pin "DI1"
+			(uuid "3a8841a8-0c8a-4d51-b8b5-26f364be019a")
+		)
+		(pin "DO1"
+			(uuid "c91feddc-f594-49c6-b796-90875fe06f60")
+		)
+		(pin "GND"
+			(uuid "26b32b0b-6c05-4aa7-ac82-d182e77b5263")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29e53585-bbca-49bc-9abf-d7f0af772ec0")
+		(property "Reference" "#PWR03"
+			(at 269.24 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9f13775-38f0-4e0a-a8a1-867960247383")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 104.14 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30adbcb0-fc0a-4900-a43f-86ea2c7a31d5")
+		(property "Reference" "SW2"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 104.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "e35bca8f-5021-43ae-a2c7-35971950c53d")
+		)
+		(pin "CHOC2"
+			(uuid "20cb7a59-5c46-47a2-8fc8-a951f476d54d")
+		)
+		(pin "MX1"
+			(uuid "51affb03-86b5-4657-a377-656a0b0fa718")
+		)
+		(pin "MX2"
+			(uuid "34e8f9ed-8952-497d-a880-7755f58f2aca")
+		)
+		(pin "+1"
+			(uuid "5ae52f3b-aec8-4e7b-a1d6-b908a34dd566")
+		)
+		(pin "DI1"
+			(uuid "3a8841a8-0c8a-4d51-b8b5-26f364be019a")
+		)
+		(pin "DO1"
+			(uuid "c91feddc-f594-49c6-b796-90875fe06f60")
+		)
+		(pin "GND"
+			(uuid "26b32b0b-6c05-4aa7-ac82-d182e77b5263")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 176.53 107.95 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3748fc6c-2394-4259-aa1e-4bee3c172a6d")
+		(property "Reference" "SW4"
+			(at 176.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "fc736adc-c650-4a25-b131-d1c68fcfa9dc")
+		)
+		(pin "CHOC2"
+			(uuid "5b9836b2-1f0d-4310-b688-002c40701f55")
+		)
+		(pin "MX1"
+			(uuid "1cd86727-bbc3-4988-bba6-a60471f08055")
+		)
+		(pin "MX2"
+			(uuid "dde7e550-a750-4b5c-a8e4-c8ebc8dea432")
+		)
+		(pin "+1"
+			(uuid "920e9a0e-8e57-489b-9608-87b81470e6d1")
+		)
+		(pin "DI1"
+			(uuid "1f457560-972c-4907-984d-0b211e6d6c51")
+		)
+		(pin "DO1"
+			(uuid "a6a16e4a-47c2-4244-ba11-78b40782f3f4")
+		)
+		(pin "GND"
+			(uuid "19a4e55b-bef5-4b8e-a8cb-f21d84bcf738")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 284.48 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39bb15a0-2e55-4c48-9284-4e780f571e38")
+		(property "Reference" "D7"
+			(at 284.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 284.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 284.48 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 284.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1100f8df-b4d8-46fd-8dc2-d15c1ae89179")
+		)
+		(pin "2"
+			(uuid "a146f13d-ef72-4194-9b5b-c0c5aa2b7353")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:SM10B-SRSS-TB_(LF)(SN)")
+		(at 116.84 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61315f73-f1ec-4972-a8ca-6967f6588893")
+		(property "Reference" "J1"
+			(at 125.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM10B-SRSS-TB(LF)(SN)"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Seismos-libs:CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN"
+			(at 117.475 138.3792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.szlcsc.com/product/details_171789.html"
+			(at 117.475 133.2992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Manufacturer_name"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SuppliersPartNumber" "C160409"
+			(at 122.6058 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "uuid" "std:5e45a64e8ce7478d8accd2bac4409ba5"
+			(at 117.475 128.2192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19104ece-490c-44b4-a547-5555b527a5fa")
+		)
+		(pin "10"
+			(uuid "884d05fa-b0cd-45d6-8852-bb7bfb929be4")
+		)
+		(pin "2"
+			(uuid "38acd51b-c5f9-4e43-8f70-7bad044597de")
+		)
+		(pin "3"
+			(uuid "1e377a0d-5006-40e5-a49e-bfb07cb09a78")
+		)
+		(pin "4"
+			(uuid "6cf18ead-3da8-445d-80fe-d7ccb36d5034")
+		)
+		(pin "5"
+			(uuid "8c824bc9-6a5a-47b0-bc6c-e65a67fead21")
+		)
+		(pin "6"
+			(uuid "e92636db-6a15-4fac-afb2-aebc370c4680")
+		)
+		(pin "7"
+			(uuid "c9ad4651-e1c8-45af-9130-278b87544087")
+		)
+		(pin "8"
+			(uuid "3415406e-dc0d-4a0e-bc80-b1ae13df4647")
+		)
+		(pin "9"
+			(uuid "e3f90a3b-c835-445d-bb21-2d126df870fb")
+		)
+		(pin "S1"
+			(uuid "9fa92332-f3c7-4719-82f5-a337ed385bf0")
+		)
+		(pin "S2"
+			(uuid "9a1fc702-bc5d-424e-aa18-98c5907deaa5")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 339.09 87.63 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f4d7fec-96f5-4931-a17b-79196f1bc8f4")
+		(property "Reference" "SW7"
+			(at 339.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 339.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 339.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "18b2f648-717b-4ae4-b57c-73b04c1f6935")
+		)
+		(pin "CHOC2"
+			(uuid "f7d76cbe-2460-49c9-8359-5e11591ccc93")
+		)
+		(pin "MX1"
+			(uuid "89d62253-d77f-4d26-9924-2ab84ceb62de")
+		)
+		(pin "MX2"
+			(uuid "6b56eef3-68ed-437b-90df-2212ee455ebe")
+		)
+		(pin "+1"
+			(uuid "8fcf54e1-fad2-4b71-ada3-abbaf133c14f")
+		)
+		(pin "DI1"
+			(uuid "814338c1-21d0-4be9-842a-983111c333ff")
+		)
+		(pin "DO1"
+			(uuid "4ae72d71-0be7-4fc4-9f1b-fa4426bbf31e")
+		)
+		(pin "GND"
+			(uuid "70d33ab8-2202-4518-8510-158d3b16dc0c")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 121.92 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f1f01ac-e5a3-4447-b0fd-9a3f40f5273c")
+		(property "Reference" "D1"
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 121.92 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 121.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1679624a-0587-496f-b717-2bf6f3611773")
+		)
+		(pin "2"
+			(uuid "bf59d924-6308-432a-8099-efaecc01b8d3")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 176.53 67.31 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82dedc1f-8f46-4680-98a3-56f743ddceb7")
+		(property "Reference" "SW2"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "144db21f-8ddd-4488-b338-3e555bb9160e")
+		)
+		(pin "CHOC2"
+			(uuid "83d0266f-adb9-4ca0-83d9-b5484b3d128a")
+		)
+		(pin "MX1"
+			(uuid "df6d242c-0a08-4f37-9568-64ebb764a1c3")
+		)
+		(pin "MX2"
+			(uuid "fd9f0644-4dd8-4329-aae4-a8f01ed40c2b")
+		)
+		(pin "+1"
+			(uuid "13645e9a-16d0-42f7-acdb-35ad8a4b3247")
+		)
+		(pin "DI1"
+			(uuid "f903223e-3711-41e5-b965-51efe6596c56")
+		)
+		(pin "DO1"
+			(uuid "58d47b88-9d6b-4071-bfee-3e0297c4b790")
+		)
+		(pin "GND"
+			(uuid "d91e70f8-fe93-452e-a676-52e1778d92a3")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 360.68 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8987b768-5fc8-4d53-99f4-80f1eedbc573")
+		(property "Reference" "#PWR04"
+			(at 360.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 360.6799 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dd1a46e-ad95-4e55-861e-616e63446440")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 97.79 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9350127d-29f6-48d5-9c97-40ea6271be4d")
+		(property "Reference" "#PWR01"
+			(at 91.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b07904dd-1b21-4f13-b2a3-9a04fcd48335")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 176.53 87.63 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94fd6b3e-56f7-45ef-836e-dcd828b9e347")
+		(property "Reference" "SW3"
+			(at 176.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 176.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "18b2f648-717b-4ae4-b57c-73b04c1f6935")
+		)
+		(pin "CHOC2"
+			(uuid "f7d76cbe-2460-49c9-8359-5e11591ccc93")
+		)
+		(pin "MX1"
+			(uuid "89d62253-d77f-4d26-9924-2ab84ceb62de")
+		)
+		(pin "MX2"
+			(uuid "6b56eef3-68ed-437b-90df-2212ee455ebe")
+		)
+		(pin "+1"
+			(uuid "b3d963e7-0ff4-49b4-98da-1b54e1b36895")
+		)
+		(pin "DI1"
+			(uuid "3e43bd16-d4a3-4a4c-8fd8-649cad7c46e9")
+		)
+		(pin "DO1"
+			(uuid "ebdd4436-4639-44c4-a36d-877699176507")
+		)
+		(pin "GND"
+			(uuid "c4e8afcf-c65c-4850-8409-fb0558fa1682")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 121.92 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "970eb324-e886-4478-a800-3192244ab12f")
+		(property "Reference" "D4"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 121.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 121.92 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f231fd44-bacd-43f0-af56-634dca2f8944")
+		)
+		(pin "2"
+			(uuid "950ac3fb-fd3b-4f37-9e94-80ab38ef13a6")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 339.09 46.99 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "991095d4-3b2f-4d96-ab57-949c910fad51")
+		(property "Reference" "SW5"
+			(at 339.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 339.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 339.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "48fd96ea-79cc-4bce-9fbb-7e847b67e98d")
+		)
+		(pin "CHOC2"
+			(uuid "7055fc8b-3356-42b1-bb69-dc5da740a753")
+		)
+		(pin "MX1"
+			(uuid "047b4ce0-4cce-40fe-9afb-28d2b6cf1d81")
+		)
+		(pin "MX2"
+			(uuid "dfd7b3ce-7f44-4e3e-92b1-411dc97a176b")
+		)
+		(pin "+1"
+			(uuid "63841a2a-3589-40b0-bb76-2fb5abacd2fc")
+		)
+		(pin "DI1"
+			(uuid "48d50e95-c0dc-40b1-bd9c-e2a596141d44")
+		)
+		(pin "DO1"
+			(uuid "9cc02bba-93bd-4ea6-8588-b6951c38715b")
+		)
+		(pin "GND"
+			(uuid "4ca7054b-3786-453d-ab57-75c2ee425b0b")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 104.14 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2063d70-2593-4d78-b9f8-8463a5e421c9")
+		(property "Reference" "SW1"
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 104.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "3c0f72d0-6e34-4105-9d6b-3c52d838711d")
+		)
+		(pin "CHOC2"
+			(uuid "32e3e6f9-94f5-46d5-99aa-da60b3af6b20")
+		)
+		(pin "MX1"
+			(uuid "4d23be17-ad99-490e-9ba8-62057d867055")
+		)
+		(pin "MX2"
+			(uuid "6ab77c87-4a7c-4d75-964d-ce186b337dcb")
+		)
+		(pin "+1"
+			(uuid "be38fd53-ffdc-4a58-b9c5-e5e0ff45eff0")
+		)
+		(pin "DI1"
+			(uuid "94955eae-1a41-403a-bb3b-34255fe7d9f1")
+		)
+		(pin "DO1"
+			(uuid "48f31df7-efd2-4c71-bc41-c9dde9946714")
+		)
+		(pin "GND"
+			(uuid "5cee1971-ff8b-48f2-9ac2-093f1bb717c4")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 339.09 107.95 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a966c9d7-7714-4348-b081-a6934077ee69")
+		(property "Reference" "SW8"
+			(at 339.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 339.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 339.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "fc736adc-c650-4a25-b131-d1c68fcfa9dc")
+		)
+		(pin "CHOC2"
+			(uuid "5b9836b2-1f0d-4310-b688-002c40701f55")
+		)
+		(pin "MX1"
+			(uuid "1cd86727-bbc3-4988-bba6-a60471f08055")
+		)
+		(pin "MX2"
+			(uuid "dde7e550-a750-4b5c-a8e4-c8ebc8dea432")
+		)
+		(pin "+1"
+			(uuid "0dc9bed4-dc7a-4deb-88f6-5a5811fe4199")
+		)
+		(pin "DI1"
+			(uuid "50fd0a96-6746-4009-bf22-da66f6428c24")
+		)
+		(pin "DO1"
+			(uuid "78b2302d-0bfe-4843-9790-60349e866673")
+		)
+		(pin "GND"
+			(uuid "12c65900-3493-419d-b97e-01bf87aac697")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 339.09 67.31 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b14de5d1-9d45-4858-8b6a-6d5c059b4c70")
+		(property "Reference" "SW6"
+			(at 339.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 339.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 339.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "144db21f-8ddd-4488-b338-3e555bb9160e")
+		)
+		(pin "CHOC2"
+			(uuid "83d0266f-adb9-4ca0-83d9-b5484b3d128a")
+		)
+		(pin "MX1"
+			(uuid "df6d242c-0a08-4f37-9568-64ebb764a1c3")
+		)
+		(pin "MX2"
+			(uuid "fd9f0644-4dd8-4329-aae4-a8f01ed40c2b")
+		)
+		(pin "+1"
+			(uuid "a0935a1d-9f2d-49b0-bccc-dcb4da3d56f2")
+		)
+		(pin "DI1"
+			(uuid "55609b36-4979-4114-9fc1-2e369786b0ec")
+		)
+		(pin "DO1"
+			(uuid "85f0d7aa-f7f6-4507-b766-d6591aa4e052")
+		)
+		(pin "GND"
+			(uuid "4a912521-8aa2-4e02-aec1-6549bb0bd853")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 261.62 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba3d663d-b6b3-4b41-86e8-86594c08cf47")
+		(property "Reference" "#PWR02"
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dcf63fa-4ad3-4e85-be5d-ce065078db14")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 266.7 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb9405d-2abf-433f-a324-965418c043f1")
+		(property "Reference" "SW8"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 266.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "befea43c-3eee-49bc-9001-157df536acf6")
+		)
+		(pin "CHOC2"
+			(uuid "32b774ca-3934-4f68-99c4-b30f6a196b28")
+		)
+		(pin "MX1"
+			(uuid "a239dcbb-9250-4e44-9de1-31c66aa3c85a")
+		)
+		(pin "MX2"
+			(uuid "4f075e10-edc4-4b3d-aa01-9e2284a279aa")
+		)
+		(pin "+1"
+			(uuid "2c85f33b-82ed-4bae-8294-308146029411")
+		)
+		(pin "DI1"
+			(uuid "d5aba943-85ae-4d60-8fb1-d757e23a76cb")
+		)
+		(pin "DO1"
+			(uuid "57d94ba2-30e8-4f36-82ca-235cedeb43d5")
+		)
+		(pin "GND"
+			(uuid "cf4d8939-6c9b-4cbf-8a3d-e6dea6eba736")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beed085a-29b3-404e-9899-527e08957019")
+		(property "Reference" "#PWR0101"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b2dde1b-cbce-41fa-8b99-d2f668db6852")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 104.14 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf9dcc4d-d638-4b59-835f-4778dd25fb69")
+		(property "Reference" "SW3"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "8f060dd8-8d3f-4498-815a-a62e360892a6")
+		)
+		(pin "CHOC2"
+			(uuid "6e0f1661-fef9-4609-8417-96119aaa5217")
+		)
+		(pin "MX1"
+			(uuid "8b439adf-a76c-44b8-a7df-23182bf7d78a")
+		)
+		(pin "MX2"
+			(uuid "39f46285-6ec4-46ea-967a-a085cc5e512f")
+		)
+		(pin "+1"
+			(uuid "966965b1-a32a-46dc-b0b4-436cd85d54d1")
+		)
+		(pin "DI1"
+			(uuid "eb4738b0-d989-46dc-9b21-a185ce82da6d")
+		)
+		(pin "DO1"
+			(uuid "55d28cf2-7248-47ae-a7a9-c42e8a73e44a")
+		)
+		(pin "GND"
+			(uuid "da2f8975-eba1-4575-b50f-6734737e6cc1")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 266.7 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c856f966-f05c-472b-8a3f-33612c25e110")
+		(property "Reference" "SW5"
+			(at 266.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 266.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 266.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "89c41cf9-3ffd-4170-9984-30b1c1eac31a")
+		)
+		(pin "CHOC2"
+			(uuid "4be5a74f-24a0-4af8-abb7-e56df9afbd18")
+		)
+		(pin "MX1"
+			(uuid "5351115f-2aba-4b84-9b61-2af77ba35a1b")
+		)
+		(pin "MX2"
+			(uuid "d280bfb5-2d75-4d52-bb24-c998773b66a4")
+		)
+		(pin "+1"
+			(uuid "be38fd53-ffdc-4a58-b9c5-e5e0ff45eff0")
+		)
+		(pin "DI1"
+			(uuid "94955eae-1a41-403a-bb3b-34255fe7d9f1")
+		)
+		(pin "DO1"
+			(uuid "48f31df7-efd2-4c71-bc41-c9dde9946714")
+		)
+		(pin "GND"
+			(uuid "5cee1971-ff8b-48f2-9ac2-093f1bb717c4")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 284.48 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2ca07b3-0215-42df-965e-50265d5e160a")
+		(property "Reference" "D6"
+			(at 284.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 284.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 284.48 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 284.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df83954a-4655-4433-92aa-a8358b1157c3")
+		)
+		(pin "2"
+			(uuid "115c58d8-1109-4c81-99c2-cbb79ce20b71")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Seismos-sym:Switch_SK6812-E_Diode")
+		(at 104.14 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4f4f0b8-600f-472e-ac82-daaf189d59c0")
+		(property "Reference" "SW4"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch_SK6812-E_Diode"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Seismos-libs:Switch_SK6812-E_Diode"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "CHOC1"
+			(uuid "3776d656-369b-4bc5-ad66-567f836d0fa3")
+		)
+		(pin "CHOC2"
+			(uuid "a70a6a3f-2724-48b3-b488-859475275951")
+		)
+		(pin "MX1"
+			(uuid "31a45e38-00ee-4fcb-937d-b08ee2519488")
+		)
+		(pin "MX2"
+			(uuid "4500c442-7b89-475a-95ec-430a7c766954")
+		)
+		(pin "+1"
+			(uuid "2c85f33b-82ed-4bae-8294-308146029411")
+		)
+		(pin "DI1"
+			(uuid "d5aba943-85ae-4d60-8fb1-d757e23a76cb")
+		)
+		(pin "DO1"
+			(uuid "57d94ba2-30e8-4f36-82ca-235cedeb43d5")
+		)
+		(pin "GND"
+			(uuid "cf4d8939-6c9b-4cbf-8a3d-e6dea6eba736")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4103142-2c97-4ffb-95e4-7c345926d7fd")
+		(property "Reference" "#PWR0104"
+			(at 198.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.1199 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dff4d6b7-652b-4a49-825c-0bb9f8577ff9")
+		)
+		(instances
+			(project "Seismos_4-Rhythm"
+				(path "/c801d42e-dd94-493e-bd2f-6c3ddad43f55"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

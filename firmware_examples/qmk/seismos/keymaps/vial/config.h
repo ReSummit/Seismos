@@ -47,7 +47,7 @@ for more options. */
 #    define SHIFT_CS_PIN B6
 #    define SHIFT_MOSI_PIN B2
 #    define SHIFT_SCLK_PIN B1
-#    define RGBLED_NUM 80
+#    define RGBLIGHT_LED_COUNT 70
 #    define RGBLED_SPLIT \
         { 40, 40 }
 #    define EE_HANDS

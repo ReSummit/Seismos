@@ -7,4 +7,3 @@ SWAP_HANDS_ENABLE = yes
 
 SRC += matrix.c
 CUSTOM_MATRIX = lite
-CONVERT_TO = rp2040_ce
